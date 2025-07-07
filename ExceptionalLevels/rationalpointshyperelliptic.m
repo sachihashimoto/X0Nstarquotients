@@ -1,6 +1,11 @@
 load "../J0wplusminus.m";
 load "../gonal_maps.m";
-load "../Coleman/coleman.m";
+load "../Coleman/auxpolys.m";
+load "../Coleman/coho.m";
+load "../Coleman/froblift.m";
+load "../Coleman/reductions.m";
+load "../Coleman/singleintegrals.m";
+load "../Coleman/applications.m";
 SetDebugOnError(true);
 
 SetLogFile("X0Nstarhyperelliptic.log");
