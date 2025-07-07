@@ -3,6 +3,10 @@ Code associated to the paper "Rational points on $X_0(N)^*$ when $N$ is non-squa
 
 The code requires Magma and Sage, and has been tested on Magma V2.28-18, Magma V2.28-13 and Sage 10.5, 10.6.
 
+To clone this project, you need to type:
+
+git clone --recurse-submodules https://github.com/sachihashimoto/testX0N.git
+
 The files in the main folder are as follows:
 
 - gonal_maps.m is modified Magma code to output several gonal maps instead of only one
@@ -30,6 +34,8 @@ The folders are as follows:
 
 - SmallLevelComputations contains all the code and log files associated to computing the list of X0(N)^* of genus between 1 and 5 and classifying their rational points
 
-- Coleman is a copy of the repository of Jennifer Balakrishnan and Jan Tuitman for computing Coleman integrals https://github.com/jtuitman/Coleman
 
-- QuadraticPoints is a copy of the repository of Nikola Adzaga, Timo Keller, Philippe Michaud-Jacobs, Filip Najman, Ekin Ozman, and Borna Vukorepa https://github.com/timokellermath/quadraticpoints
+It also contains as git submodules: 
+- Coleman, the repository of Jennifer Balakrishnan and Jan Tuitman for computing Coleman integrals
+
+- QuadraticPoints, the repository of Nikola Adzaga, Timo Keller, Philippe Michaud-Jacobs, Filip Najman, Ekin Ozman, and Borna Vukorepa
