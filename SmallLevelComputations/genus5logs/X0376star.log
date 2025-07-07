@@ -1,0 +1,44 @@
+376
+Curve over Rational Field defined by
+-x[1]^2*x[3] + x[2]^2*x[3] + x[1]*x[3]*x[4] - x[2]*x[3]*x[5],
+x[1]^3 + x[1]^2*x[2] + x[1]^2*x[3] + x[1]*x[2]*x[3] - x[1]^2*x[4] - 
+    x[1]*x[4]*x[5],
+x[1]^2*x[3] + x[1]*x[2]*x[3] + x[1]*x[3]^2 + x[2]*x[3]^2 - x[1]*x[3]*x[4] - 
+    x[3]*x[4]*x[5],
+-x[1]^2*x[2] + x[2]^3 + x[1]*x[2]*x[4] - x[2]^2*x[5],
+x[1]^2*x[5] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] 
+    - x[4]*x[5]^2,
+-x[1]*x[2]*x[3] - x[2]^2*x[3] + x[3]^2*x[4] + x[2]*x[4]^2 - x[1]^2*x[5] + 
+    x[2]^2*x[5] - x[2]*x[3]*x[5] + x[1]*x[4]*x[5] - x[3]*x[4]*x[5],
+-x[1]^3 + x[1]^2*x[2] - x[1]*x[2]*x[3] - x[2]^2*x[3] - x[1]*x[3]^2 + x[1]^2*x[4]
+    + x[2]^2*x[4] + x[1]*x[4]^2 - x[1]^2*x[5],
+-x[1]^2*x[3] + x[2]^2*x[3] + x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[2]*x[5] + x[1]*x[4]*x[5],
+x[1]^2*x[4] - x[2]^2*x[4] - x[1]*x[4]^2 + x[2]*x[4]*x[5],
+x[1]^2*x[5] - x[2]^2*x[5] - x[1]*x[4]*x[5] + x[2]*x[5]^2,
+-x[1]^3 + x[1]*x[2]^2 + x[1]^2*x[4] - x[1]*x[2]*x[5],
+-x[1]^2*x[2] - x[1]*x[2]^2 - x[1]*x[2]*x[4] - x[1]*x[4]^2 + x[1]^2*x[5] - 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] + x[3]*x[4]*x[5],
+-x[1]*x[2]*x[4] - x[2]^2*x[4] - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + x[2]*x[4]*x[5]
+    + x[4]^2*x[5],
+-x[1]^2*x[3] + x[2]^2*x[3] - x[1]*x[2]*x[4] - x[1]*x[2]*x[5] + x[3]^2*x[5] + 
+    x[1]*x[5]^2 - x[2]*x[5]^2,
+-2*x[1]*x[2]*x[3] + x[3]^3 - x[1]*x[3]*x[4] + x[2]*x[3]*x[4] + x[1]*x[3]*x[5] - 
+    x[2]*x[3]*x[5]
+g = 5
+r = 2
+2 small points: [ (0 : 0 : 0 : 1 : 0), (0 : 0 : 0 : 0 : 1) ]
+checking: differences of 1 points generate rank 2 subgroup of J_0(N)^*(Q).
+Runtime error: #pts-1 < r
+
+debug> q
+> for N in [378,396,414,440,444,495,572,630] do
+for> SetLogFile("X0" * Sprint(N) * "star.log");
+for> // N := StringToInteger(N);
+for> print N;
+for> //index := StringToInteger(index);
+for> X := X0NQuotient(N, [p^Valuation(N,p) : p in PrimeDivisors(N)]);
+for> print X;
+for> 
+for> rational_points(N, X);
+for> end for;

@@ -1,0 +1,59 @@
+196
+Curve over Rational Field defined by
+x^4 - x^3*z - 3/2*x^2*y^2 - 3/2*x^2*y*z + 1/2*x*y^2*z + 1/2*x*y*z^2 + 1/2*x*z^3 + 1/2*y^4 + y^3*z + 1/2*y^2*z^2
+g = 3
+r = 0
+4 small points: [ (0 : 0 : 1), (0 : -1 : 1), (-1 : 1 : 0), (1 : 1 : 0) ]
+checking: differences of 3 points generate rank 0 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 4 plane models:
+[
+y^4 + 2*y^3 + (-3*x^2 + x + 1)*y^2 + (-3*x^2 + x)*y + 2*x^4 - 2*x^3 + x,
+y^4 + 2*y^3 + (-3*x^2 + x + 1)*y^2 + (-3*x^2 + x)*y + 2*x^4 - 2*x^3 + x,
+y^4 + 2*y^3 + (-3*x^2 + x + 1)*y^2 + (-3*x^2 + x)*y + 2*x^4 - 2*x^3 + x,
+y^4 + 2*y^3 + (-3*x^2 + x + 1)*y^2 + (-3*x^2 + x)*y + 2*x^4 - 2*x^3 + x
+]
+
+trying model #1:
+y^4 + 2*y^3 + (-3*x^2 + x + 1)*y^2 + (-3*x^2 + x)*y + 2*x^4 - 2*x^3 + x
+p = 2 fails: Runtime error: bad prime.
+Time: 1.850
+Time: 1247.390
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^29),
+b := [ 1 + O(3^35), -1 + O(3^35), 1 + O(3^35), -1 + O(3^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^29),
+b := [ 1 + O(3^35), 1 + O(3^29), 1 + O(3^29), 1 + O(3^30) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^35),
+b := [ 1 + O(3^35), O(3^29), O(3^35), O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^35),
+b := [ 1 + O(3^35), -1 + O(3^29), 1 + O(3^29), -1 + O(3^30) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 0, 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), -1 + O(3^35), 1 + O(3^35), -1 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 1 + O(3^35), 1 + O(3^35), 1 + O(3^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), -1 + O(3^35), 1 + O(3^35), -1 + O(3^35) ],
+inf := true>
+] (4 pts)
+found all Q-points!

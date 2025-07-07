@@ -1,0 +1,297 @@
+172
+g = 4
+r = 2
+7 small points: [ (-1/2 : -1/2 : 1/2 : 1), (0 : 1 : 0 : 1), (-1 : 1 : 1 : 0), (0 : 0 : 1 : 0), (-1 : 0 : 1 : 1), (0 : 0 : 0 : 1), (0 : 1 : 0 : 0) ]
+checking: differences of 6 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 7 plane models:
+[
+y^4 + (-2*x^2 - 8*x - 2)*y^3 + (2*x^4 + 16*x^3 + 50*x^2 + 64*x + 12)*y^2 + (-2*x^6 - 20*x^5 - 84*x^4 - 188*x^3 - 210*x^2 - 72*x)*y + x^8 + 12*x^7 + 62*x^6 + 200*x^5 + 485*x^4 + 828*x^3 + 756*x^2 + 216*x,
+y^3 + (-x^3 - 2*x^2 + 2*x)*y^2 + (-2*x^4 - 3*x^3 - x^2 + x)*y - x^7 + x^6 - x^5 - x^4 - x^3,
+y^4 + (2*x^2 + 2*x - 1)*y^3 + (2*x^4 + 3*x^3 - 5*x^2 + x - 1)*y^2 + (2*x^6 - 2*x^5 + x^4 - 4*x^3 + 4*x^2 - 2*x + 1)*y + x^8 - 3*x^7 + 5*x^6 - 7*x^5 + 7*x^4 - 5*x^3 + 3*x^2 - x,
+y^4 + (2*x^2 + x + 1)*y^3 + (2*x^4 - x^2 - x)*y^2 + (2*x^6 - 3*x^5 - x^4 + 3*x^3 - x^2)*y + x^8 - 2*x^7 + x^6 - x^4 + 2*x^3 - x^2,
+y^4 + (-3*x - 4)*y^3 + (x^4 + 5*x^3 + 12*x^2 + 15*x + 6)*y^2 + (-x^4 - 7*x^3 - 17*x^2 - 16*x - 4)*y + x^6 + 8*x^5 + 25*x^4 + 38*x^3 + 28*x^2 + 8*x,
+y^3 + (-x^3 - 2*x^2 - x)*y^2 + (x^3 - 2*x^2 + x)*y - x^7 + x^6 + x^3 - x^2,
+y^4 + 2*x^2*y^3 + (x^4 - 3*x^3 - 11/4*x^2 - 1/2*x)*y^2 + (-x^5 + 3/2*x^4 + 11/4*x^3 + 9/8*x^2 + 1/8*x)*y + 1/2*x^6 + 1/4*x^5 - 3/8*x^4 - 5/16*x^3 - 1/16*x^2
+]
+
+trying model #1:
+y^4 + (-2*x^2 - 8*x - 2)*y^3 + (2*x^4 + 16*x^3 + 50*x^2 + 64*x + 12)*y^2 + (-2*x^6 - 20*x^5 - 84*x^4 - 188*x^3 - 210*x^2 - 72*x)*y + x^8 + 12*x^7 + 62*x^6 + 200*x^5 + 485*x^4 + 828*x^3 + 756*x^2 + 216*x
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 9.800
+p = 5 fails: Runtime error: In Hensel lift of power series, derivative has leading term divisible by p.
+Time: 14.980
+Time: 1331.970
+found 8 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^35),
+b := [ 1 + O(7^35), O(7^24), O(7^24), -6 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^24),
+b := [ 1 + O(7^35), 2 + O(7^24), 6 + O(7^25), 1 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^24),
+b := [ 1 + O(7^35), -2 + O(7^24), -2 + O(7^24), -23 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^24),
+b := [ 1 + O(7^35), -6 + O(7^24), 6 + O(7^24), -15 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^24),
+b := [ 1 + O(7^35), 2 + O(7^24), 6 + O(7^24), 17 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^24),
+b := [ 1 + O(7^35), -4 + O(7^24), 36 + O(7^25), 1 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^24),
+b := [ 1 + O(7^35), O(7^24), -4 + O(7^24), -15 + O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -175186418281666622346466488012 + O(7^35),
+b := [ 1 + O(7^35), -10918433994839667091 + O(7^24), -17083204899402814064 + O(7^24), 135221603711819356*7 + O(7^24) ],
+inf := false>
+] (8 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), 2 + O(7^35), 6 + O(7^35), 1 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), 2 + O(7^35), 6 + O(7^35), 17 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), -2 + O(7^35), -2 + O(7^35), -23 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), -6 + O(7^35), 6 + O(7^35), -15 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0, -6 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^35),
+b := [ 1 + O(7^35), -4 + O(7^35), 36 + O(7^35), 1 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^35),
+b := [ 1 + O(7^35), 0, -4 + O(7^35), -15 + O(7^35) ],
+inf := false>
+] (7 pts)
+have to exclude 1 residue discs.
+p = 11 fails: Runtime error: bad prime.
+Time: 21.990
+p = 13 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+set_bad_point(
+x: O(13^53),
+b: [ 1 + O(13^53), 1 + O(13^53), undef, -1572478283904391993011...,
+inf: true,
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 231, column 13:
+>>   P`b:=[Qp!b[i]:i in [1..d]];
+               ^
+Runtime error in '[]': Sequence element 3 not defined
+.
+Time: 30.870
+p = 17 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+set_bad_point(
+x: O(17^53),
+b: [ 1 + O(17^53), 1 + O(17^53), undef, -1728616778290584629932...,
+inf: true,
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 231, column 13:
+>>   P`b:=[Qp!b[i]:i in [1..d]];
+               ^
+Runtime error in '[]': Sequence element 3 not defined
+.
+Time: 34.340
+p = 19 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 299, column 20:
+>>                   b[j]:=zeros[k];
+                      ^
+Runtime error in :=: Variable 'b' has not been initialized.
+Time: 44.080
+p = 23 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 299, column 20:
+>>                   b[j]:=zeros[k];
+                      ^
+Runtime error in :=: Variable 'b' has not been initialized.
+Time: 59.680
+p = 29 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 655, column 16:
+>>   K:=pAdicField(p,Nint);
+                  ^
+Runtime error in 'pAdicField': Precision must be small and positive
+.
+Time: 81.810
+p = 31 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 655, column 16:
+>>   K:=pAdicField(p,Nint);
+                  ^
+Runtime error in 'pAdicField': Precision must be small and positive
+.
+Time: 81.880
+p = 37 fails: 
+rational_points(
+N: 172,
+X: Curve over Rational Field defined by x[1]*x[3]^2 + x[2]*x[3]...
+)
+effective_chabauty(
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 655, column 16:
+>>   K:=pAdicField(p,Nint);
+                  ^
+Runtime error in 'pAdicField': Precision must be small and positive
+.
+
+trying model #2:
+y^3 + (-x^3 - 2*x^2 + 2*x)*y^2 + (-2*x^4 - 3*x^3 - x^2 + x)*y - x^7 + x^6 - x^5 - x^4 - x^3
+p = 2 fails: Runtime error: bad prime.
+Time: 2.620
+p = 3 fails: Runtime error: In Hensel lift of power series, derivative has leading term divisible by p.
+Time: 4.150
+Time: 389.750
+found 7 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^25),
+b := [ 1 + O(5^35), 1 + O(5^25), 2 + O(5^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^25),
+b := [ 1 + O(5^35), O(5^35), 3 + O(5^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^35),
+b := [ 1 + O(5^35), O(5^25), 4 + O(5^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^25),
+b := [ 1 + O(5^35), -1 + O(5^25), 1 + O(5^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^25),
+b := [ 1 + O(5^35), 3 + O(5^25), 9 + O(5^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^25),
+b := [ 1 + O(5^35), 1 + O(5^25), 3 + O(5^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^25),
+b := [ 1 + O(5^35), 3 + O(5^25), 19 + O(5^25) ],
+inf := false>
+] (7 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^35),
+b := [ 1 + O(5^35), 3 + O(5^35), 9 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^35),
+b := [ 1 + O(5^35), 1 + O(5^35), 3 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^35),
+b := [ 1 + O(5^35), -1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), 3 + O(5^35), 19 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 0, 3 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 0, 4 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35), 2 + O(5^35) ],
+inf := true>
+] (7 pts)
+found all Q-points!
+> quit;
+
+Total time: 13697.739 seconds, Total memory usage: 416.12MB

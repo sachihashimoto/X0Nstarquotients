@@ -1,0 +1,152 @@
+414
+Curve over Rational Field defined by
+-x[1]^2*x[2] - x[1]*x[2]*x[3] + x[1]*x[3]*x[4] + x[1]^2*x[5],
+x[1]*x[2]^2 + x[2]^2*x[3] - x[2]*x[3]*x[4] - x[1]*x[2]*x[5],
+x[1]^2*x[2] - x[2]^2*x[3] - x[2]^2*x[4] - x[1]*x[3]*x[4] + x[1]*x[4]^2 + 
+    x[2]*x[4]^2 + x[1]*x[2]*x[5] - x[3]*x[4]*x[5],
+-x[1]^2*x[2] - x[1]*x[2]^2 + x[1]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5] - 
+    x[4]^2*x[5],
+-x[1]*x[2]*x[4] - x[2]*x[3]*x[4] + x[3]*x[4]^2 + x[1]*x[4]*x[5],
+-x[1]*x[2]*x[3] - x[2]*x[3]^2 + x[3]^2*x[4] + x[1]*x[3]*x[5],
+x[1]*x[2]*x[3] + x[2]^2*x[3] - x[3]^2*x[4] + x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[4]*x[5]^2,
+x[1]*x[2]*x[5] + x[2]*x[3]*x[5] - x[3]*x[4]*x[5] - x[1]*x[5]^2,
+-x[1]^2*x[2] - x[1]*x[2]^2 - x[1]*x[2]*x[3] + x[2]^2*x[3] - x[1]*x[2]*x[5] - 
+    x[1]*x[3]*x[5] + x[2]*x[4]*x[5] + x[3]*x[4]*x[5] + x[4]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] - x[3]^2*x[4] - x[1]*x[2]*x[5] + x[2]^2*x[5] - 
+    x[1]*x[4]*x[5] - x[2]*x[5]^2 + x[3]*x[5]^2,
+x[1]^2*x[2] + x[2]^2*x[3] + x[1]^2*x[4] + x[1]*x[2]*x[4] - x[1]*x[3]*x[4] - 
+    x[2]*x[3]*x[4] - x[1]*x[3]*x[5] - x[1]*x[4]*x[5],
+x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] - x[1]*x[3]*x[5] - 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+-x[1]*x[2]^2 + x[2]^3 - x[1]*x[2]*x[4] - x[2]^2*x[4] + x[2]*x[3]*x[4] - 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+x[1]^2*x[3] + x[1]*x[2]*x[3] - x[2]^2*x[3] + x[1]*x[3]^2 - x[2]*x[3]^2 + x[3]^3 
+    - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] + x[4]*x[5]^2,
+x[1]^3 + x[1]^2*x[2] - x[1]*x[2]^2 + x[1]^2*x[3] - x[1]*x[2]*x[3] + x[1]*x[3]^2 
+    - x[1]*x[4]*x[5] + x[2]*x[4]*x[5] - x[4]^2*x[5]
+g = 5
+r = 3
+4 small points: [ (0 : 1 : 0 : 1 : 0), (0 : 1 : 0 : 0 : 1), (0 : 0 : 0 : 1 : 0),
+(0 : 0 : 0 : 0 : 1) ]
+checking: differences of 3 points generate rank 3 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 11: ell = 3
+found 3 plane models:
+{
+y^5 + (-2*x^2 + 2*x + 2)*y^4 + (-3*x^2 + x + 2)*y^3 + (3*x^6 - 8*x^5 + 11*x^4 - 
+7*x^3 - x + 2)*y^2 + (-4*x^8 + 19*x^7 - 44*x^6 + 60*x^5 - 40*x^4 - 2*x^3 + 
+19*x^2 - 9*x + 1)*y + 2*x^10 - 14*x^9 + 45*x^8 - 91*x^7 + 130*x^6 - 133*x^5 + 
+93*x^4 - 41*x^3 + 10*x^2 - x,
+y^4 + (-x^3 + 1)*y^3 + (-x^5 + 1/2*x^4 - 7/2*x^3 + 1/2*x^2 - x)*y^2 + (-1/2*x^7 
++ x^6 + x^5 - x^4 - x^3 + 1/2*x^2)*y - 1/2*x^8 + 2*x^7 + 3/2*x^6 + 2*x^5 - 
+1/2*x^4,
+y^4 + 2*x^2*y^3 + (-x^6 + 2*x^5 - x^4 + 2*x^3 - x^2)*y^2 + (2*x^8 - 4*x^7 + 
+4*x^6 - 4*x^5 + 2*x^4)*y - 2*x^10 + 2*x^9 + 2*x^7 - 2*x^6
+}
+
+trying model #
+y^5 + (-2*x^2 + 2*x + 2)*y^4 + (-3*x^2 + x + 2)*y^3 + (3*x^6 - 8*x^5 + 11*x^4 - 
+7*x^3 - x + 2)*y^2 + (-4*x^8 + 19*x^7 - 44*x^6 + 60*x^5 - 40*x^4 - 2*x^3 + 
+19*x^2 - 9*x + 1)*y + 2*x^10 - 14*x^9 + 45*x^8 - 91*x^7 + 130*x^6 - 133*x^5 + 
+93*x^4 - 41*x^3 + 10*x^2 - xp = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 68.120
+p = 5 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+Time: 229.210
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 337.210
+p = 17 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 389.640
+p = 19 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+
+trying model #
+y^4 + (-x^3 + 1)*y^3 + (-x^5 + 1/2*x^4 - 7/2*x^3 + 1/2*x^2 - x)*y^2 + (-1/2*x^7 
++ x^6 + x^5 - x^4 - x^3 + 1/2*x^2)*y - 1/2*x^8 + 2*x^7 + 3/2*x^6 + 2*x^5 - 
+1/2*x^4p = 2 fails: 
+rational_points(
+    N: 414,
+    X: Curve over Rational Field defined by -x[1]^2*x[2] - x[1]*x[2...
+)
+coleman_data(
+    Q: y^4 + (-x^3 + 1)*y^3 + (-x^5 + 1/2*x^4 - 7/2*x^3 + 1/2*x^2 -...,
+    p: 2,
+    N: 35
+)
+genus(
+    Q: y^4 + (-x^3 + 1)*y^3 + (-x^5 + 1/2*x^4 - 7/2*x^3 + 1/2*x^2 -...,
+    p: 2
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 47.550
+p = 7 fails: 
+rational_points(
+    N: 414,
+    X: Curve over Rational Field defined by -x[1]^2*x[2] - x[1]*x[2...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 299, column 20:
+>>                   b[j]:=zeros[k];
+                      ^
+Runtime error in :=: Variable 'b' has not been initialized.
+Time: 78.460
+Time: 2316.960
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^27),
+b := [ 1 + O(11^35), 2 + O(11^27), 4 + O(11^35), 
+-936747894935474928353737967784468281 + O(11^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^27),
+b := [ 1 + O(11^35), O(11^35), O(11^27), O(11^27) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^27),
+b := [ 1 + O(11^35), -2 + O(11^27), 4 + O(11^35), 
+936747894935474928353737967784468281 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^27),
+b := [ 1 + O(11^35), O(11^35), O(11^27), O(11^27) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), -2 + O(11^35), 4 + O(11^35), 
+936747894935474928353737967784468281 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 2 + O(11^35), 4 + O(11^35), 
+-936747894935474928353737967784468281 + O(11^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0, 0 ],
+inf := true>
+] (4 pts)
+found all Q-points!

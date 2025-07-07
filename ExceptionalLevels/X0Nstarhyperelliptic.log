@@ -1,0 +1,196 @@
+Time: 0.180
+Time: 83.320
+found 5 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^19),
+b := [ 1 + O(3^25), -1 + O(3^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^19),
+b := [ 1 + O(3^25), 1 + O(3^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^25),
+b := [ 1 + O(3^25), O(3^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^19),
+b := [ 1 + O(3^25), -1 + O(3^20) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^19),
+b := [ 1 + O(3^25), 1 + O(3^20) ],
+inf := false>
+] (5 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^25), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^25),
+b := [ 1 + O(3^25), 1 + O(3^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^25),
+b := [ 1 + O(3^25), -1 + O(3^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^25), 1 + O(3^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^25), -1 + O(3^25) ],
+inf := true>
+] (5 pts)
+found all Q-points!
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 0.190
+Time: 28.090
+found 10 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^22),
+b := [ 1 + O(7^25), -1 + O(7^22) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^22),
+b := [ 1 + O(7^25), 1 + O(7^22) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^23),
+b := [ 1 + O(7^25), -1 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^23),
+b := [ 1 + O(7^25), 1 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -6042068661342892315 + O(7^23),
+b := [ 1 + O(7^25), -3200472694709347081 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -6042068661342892315 + O(7^23),
+b := [ 1 + O(7^25), 3200472694709347081 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 404489141439870852829 + O(7^25),
+b := [ 1 + O(7^25), O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -404489141439870852830 + O(7^25),
+b := [ 1 + O(7^25), O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 6042068661342892316 + O(7^23),
+b := [ 1 + O(7^25), -3200472694709347081 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 6042068661342892316 + O(7^23),
+b := [ 1 + O(7^25), 3200472694709347081 + O(7^23) ],
+inf := false>
+] (10 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^25), 1 + O(7^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^25), -1 + O(7^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^25), 1 + O(7^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^25), -1 + O(7^25) ],
+inf := true>
+] (4 pts)
+have to exclude 6 residue discs.
+Time: 0.190
+Time: 4.810
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^22),
+b := [ 1 + O(11^25), -1 + O(11^22) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^22),
+b := [ 1 + O(11^25), 1 + O(11^22) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^23),
+b := [ 1 + O(11^25), -1 + O(11^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^23),
+b := [ 1 + O(11^25), 1 + O(11^23) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^25), 1 + O(11^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^25), -1 + O(11^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^25), 1 + O(11^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^25), -1 + O(11^25) ],
+inf := true>
+] (4 pts)
+found all Q-points!
+Time: 0.070
+Time: 2.960
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^21),
+b := [ 1 + O(3^25), -1 + O(3^21) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^21),
+b := [ 1 + O(3^25), 1 + O(3^21) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^21),
+b := [ 1 + O(3^25), -1 + O(3^21) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^21),
+b := [ 1 + O(3^25), 1 + O(3^21) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^25),
+b := [ 1 + O(3^25), 1 + O(3^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^25),
+b := [ 1 + O(3^25), -1 + O(3^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^25), 1 + O(3^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^25), -1 + O(3^25) ],
+inf := true>
+] (4 pts)
+found all Q-points!
+
+Total time: 120.609 seconds, Total memory usage: 32.09MB

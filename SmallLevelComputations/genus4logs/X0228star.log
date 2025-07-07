@@ -1,0 +1,340 @@
+228
+g = 4
+r = 2
+9 small points: [ (0 : 1 : 1 : 0), (0 : 0 : 0 : 1), (1/2 : 0 : 1/2 : 1), (1 : 0 
+: 0 : 0), (1 : 2 : 1 : 0), (0 : -1 : 1 : 1), (-1/2 : -1 : 1 : 0), (0 : -1 : -1/2
+: 1), (1/2 : 0 : -1/2 : 1) ]
+checking: differences of 8 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 3
+found 9 plane models:
+[
+y^5 + (-5*x + 5/2)*y^4 + (4*x^2 - 15/2*x + 1)*y^3 + (-8*x^2 + 4*x)*y^2 + (18*x^3
+- 33/2*x^2 + 9/2*x)*y - 8*x^4 + 11*x^3 - 11/2*x^2 + x,
+y^5 + (-8*x - 2)*y^4 + (10*x^2 + 4*x - 1)*y^3 + (-3*x^2 + 7*x + 2)*y^2 + (4*x^4 
+- 3*x^2 - x)*y + 2*x^3 - 2*x,
+y^5 + (-4/5*x - 2/5)*y^4 + (-14/5*x^2 + 1/5*x - 9/5)*y^3 + (8/5*x^3 + 14/5*x^2 -
+2/5*x + 4/5)*y^2 + (8/5*x^4 - 16/5*x^3 + 18/5*x^2 - 4/5*x + 2/5)*y + 4/5*x^3 - 
+8/5*x^2 + 4/5*x,
+y^4 + (2*x^2 + 1/2*x)*y^3 + (-x^3 - 7/2*x^2 - 3/4*x - 1/4)*y^2 + (-2*x^4 - 2*x^3
+- 3/4*x^2)*y + x^5 + 4*x^4 + 5/2*x^3 + 1/4*x,
+y^5 + (-3*x - 1)*y^4 + (2*x^2 + 45/2*x - 15/2)*y^3 + (-74*x^2 + 95/2*x - 8)*y^2 
++ (84*x^3 - 165/2*x^2 + 29*x - 5/2)*y - 32*x^4 + 43*x^3 - 47/2*x^2 + 5*x,
+y^5 + (-7*x + 2)*y^4 + (30*x^2 - 7*x)*y^3 + (-44*x^3 + 17*x^2 - 8*x - 2)*y^2 + 
+(20*x^4 - 12*x^3 + x^2 - 8*x - 1)*y + 10*x^3 + 4*x^2 - 2*x,
+y^5 + (-6*x + 7/2)*y^4 + (8*x^2 - 21*x + 15/2)*y^3 + (58*x^2 - 73/2*x + 
+11/2)*y^2 + (-60*x^3 + 57*x^2 - 19*x + 5/4)*y + 16*x^4 - 20*x^3 + 11*x^2 - 
+5/2*x,
+y^5 + (2*x - 7)*y^4 + (-30*x^2 + 29*x + 18)*y^3 + (64*x^3 - 10*x^2 - 74*x - 
+20)*y^2 + (-40*x^4 - 24*x^3 + 70*x^2 + 52*x + 8)*y - 20*x^3 - 32*x^2 - 8*x,
+y^5 + (-6/5*x - 2/5)*y^4 + (-22/5*x^2 - 17/5*x - 9/5)*y^3 + (24/5*x^3 + 22/5*x^2
++ 2*x + 4/5)*y^2 + (8/5*x^4 + 16/5*x^3 + 18/5*x^2 + 4/5*x + 2/5)*y + 4/5*x^3 + 
+8/5*x^2 + 4/5*x
+]
+
+trying model #1:
+y^5 + (-5*x + 5/2)*y^4 + (4*x^2 - 15/2*x + 1)*y^3 + (-8*x^2 + 4*x)*y^2 + (18*x^3
+- 33/2*x^2 + 9/2*x)*y - 8*x^4 + 11*x^3 - 11/2*x^2 + x
+p = 2 fails: 
+rational_points(
+    N: 228,
+    X: Curve over Rational Field defined by -x[1]*x[2]^2 + x[2]^3 -...
+)
+coleman_data(
+    Q: y^5 + (-5*x + 5/2)*y^4 + (4*x^2 - 15/2*x + 1)*y^3 + (-8*x^2 ...,
+    p: 2,
+    N: 35
+)
+genus(
+    Q: y^5 + (-5*x + 5/2)*y^4 + (4*x^2 - 15/2*x + 1)*y^3 + (-8*x^2 ...,
+    p: 2
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+Time: 65.430
+p = 11 fails: 
+rational_points(
+    N: 228,
+    X: Curve over Rational Field defined by -x[1]*x[2]^2 + x[2]^3 -...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+Time: 82.840
+p = 13 fails: 
+rational_points(
+    N: 228,
+    X: Curve over Rational Field defined by -x[1]*x[2]^2 + x[2]^3 -...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+p = 17 fails: Runtime error: bad prime.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #2:
+y^5 + (-8*x - 2)*y^4 + (10*x^2 + 4*x - 1)*y^3 + (-3*x^2 + 7*x + 2)*y^2 + (4*x^4 
+- 3*x^2 - x)*y + 2*x^3 - 2*x
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+Time: 109.890
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 156.270
+p = 17 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #3:
+y^5 + (-4/5*x - 2/5)*y^4 + (-14/5*x^2 + 1/5*x - 9/5)*y^3 + (8/5*x^3 + 14/5*x^2 -
+2/5*x + 4/5)*y^2 + (8/5*x^4 - 16/5*x^3 + 18/5*x^2 - 4/5*x + 2/5)*y + 4/5*x^3 - 
+8/5*x^2 + 4/5*x
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: 
+rational_points(
+    N: 228,
+    X: Curve over Rational Field defined by -x[1]*x[2]^2 + x[2]^3 -...
+)
+coleman_data(
+    Q: y^5 + (-4/5*x - 2/5)*y^4 + (-14/5*x^2 + 1/5*x - 9/5)*y^3 + (...,
+    p: 5,
+    N: 35
+)
+genus(
+    Q: y^5 + (-4/5*x - 2/5)*y^4 + (-14/5*x^2 + 1/5*x - 9/5)*y^3 + (...,
+    p: 5
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+Time: 54.810
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 89.130
+Time: 1788.800
+found 10 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^17),
+b := [ 1 + O(11^35), O(11^34), O(11^35), O(11^35), -1460 + O(11^17) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^17),
+b := [ 1 + O(11^35), O(11^17), O(11^34), O(11^35), 750 + O(11^17) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^35),
+b := [ 1 + O(11^35), 5 + O(11^18), 25 + O(11^18), 125 + O(11^18), 750*11 + 
+O(11^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -658320805348230005 + O(11^18),
+b := [ 1 + O(11^35), -1955511656069024984 + O(11^18), 825087467411647412 + 
+O(11^18), -2118145198320372608 + O(11^18), 2656492120477586040 + O(11^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2779958656746115740 + O(11^18),
+b := [ 1 + O(11^35), -5 + O(11^18), 25 + O(11^18), -125 + O(11^18), -4000 + 
+O(11^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^18),
+b := [ 1 + O(11^35), -10 + O(11^18), 100 + O(11^18), -1000 + O(11^18), -4250 + 
+O(11^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2779958656746115740 + O(11^18),
+b := [ 1 + O(11^35), 5 + O(11^18), 25 + O(11^18), 125 + O(11^18), 9250 + 
+O(11^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^17),
+b := [ 1 + O(11^35), O(11^34), O(11^68), O(11^102), 1250 + O(11^17) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^17),
+b := [ 1 + O(11^35), -10 + O(11^17), 100 + O(11^17), -1000 + O(11^17), -10250 + 
+O(11^17) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^18),
+b := [ 1 + O(11^35), 10 + O(11^18), 100 + O(11^18), 1000 + O(11^18), 20750 + 
+O(11^18) ],
+inf := false>
+] (10 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^35),
+b := [ 1 + O(11^35), 10 + O(11^35), 100 + O(11^35), 1000 + O(11^35), 20750 + 
+O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^35),
+b := [ 1 + O(11^35), 0, 0, 0, 1250 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^35),
+b := [ 1 + O(11^35), -10 + O(11^35), 100 + O(11^35), -1000 + O(11^35), -10250 + 
+O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^35),
+b := [ 1 + O(11^35), -10 + O(11^35), 100 + O(11^35), -1000 + O(11^35), -4250 + 
+O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 5 + O(11^35), 25 + O(11^35), 125 + O(11^35), 750*11 + 
+O(11^36) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0, 0, 750 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1405121842403212392530606951676702425 + O(11^35),
+b := [ 1 + O(11^35), -5 + O(11^35), 25 + O(11^35), -125 + O(11^35), -4000 + 
+O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1405121842403212392530606951676702425 + O(11^35),
+b := [ 1 + O(11^35), 5 + O(11^35), 25 + O(11^35), 125 + O(11^35), 9250 + 
+O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0, 0, -1460 + O(11^35) ],
+inf := true>
+] (9 pts)
+have to exclude 1 residue discs.
+Time: 113.990
+Time: 1398.140
+found 9 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^15),
+b := [ 1 + O(13^35), O(13^30), O(13^35), O(13^35), -1460 + O(13^16) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^15),
+b := [ 1 + O(13^35), O(13^15), O(13^30), O(13^35), 750 + O(13^16) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^30),
+b := [ 1 + O(13^35), 5 + O(13^15), 25 + O(13^15), 125 + O(13^15), 8250 + 
+O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 25592946507045378 + O(13^15),
+b := [ 1 + O(13^35), -5 + O(13^15), 25 + O(13^15), -125 + O(13^15), -4000 + 
+O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(13^15),
+b := [ 1 + O(13^35), -10 + O(13^15), 100 + O(13^15), -1000 + O(13^15), -4250 + 
+O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -25592946507045378 + O(13^15),
+b := [ 1 + O(13^35), 5 + O(13^15), 25 + O(13^15), 125 + O(13^15), 9250 + 
+O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^15),
+b := [ 1 + O(13^35), O(13^30), O(13^60), O(13^90), 1250 + O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^15),
+b := [ 1 + O(13^35), -10 + O(13^15), 100 + O(13^15), -1000 + O(13^15), -10250 + 
+O(13^15) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^15),
+b := [ 1 + O(13^35), 10 + O(13^15), 100 + O(13^15), 1000 + O(13^15), 20750 + 
+O(13^15) ],
+inf := false>
+] (9 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^35),
+b := [ 1 + O(13^35), 10 + O(13^35), 100 + O(13^35), 1000 + O(13^35), 20750 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^35),
+b := [ 1 + O(13^35), 0, 0, 0, 1250 + O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(13^35),
+b := [ 1 + O(13^35), -10 + O(13^35), 100 + O(13^35), -1000 + O(13^35), -10250 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(13^35),
+b := [ 1 + O(13^35), -10 + O(13^35), 100 + O(13^35), -1000 + O(13^35), -4250 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 5 + O(13^35), 25 + O(13^35), 125 + O(13^35), 8250 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 0, 0, 0, 750 + O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 486393021258859507087288041575440631178 + O(13^35),
+b := [ 1 + O(13^35), -5 + O(13^35), 25 + O(13^35), -125 + O(13^35), -4000 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -486393021258859507087288041575440631178 + O(13^35),
+b := [ 1 + O(13^35), 5 + O(13^35), 25 + O(13^35), 125 + O(13^35), 9250 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 0, 0, 0, -1460 + O(13^35) ],
+inf := true>
+] (9 pts)
+found all Q-points!

@@ -1,0 +1,84 @@
+164
+Curve over Rational Field defined by
+x^3*y - x^3*z - 1/2*x^2*y*z - 1/2*x*y^3 + x*y^2*z - x*y*z^2 + 1/2*x*z^3 + 1/2*y^2*z^2
+g = 3
+r = 1
+6 small points: [ (1 : 1 : 1), (0 : 0 : 1), (-1 : -1 : 1), (-1 : 1 : 1), (1 : 0 : 0), (0 : 1 : 0) ]
+checking: differences of 5 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 6 plane models:
+[
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3,
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3,
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3,
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3,
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3,
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3
+]
+
+trying model #1:
+y^3 + (-2*x - 1)*y^2 + (-2*x^4 + x^3 + 2*x^2)*y + 2*x^5 - x^3
+p = 2 fails: Runtime error: bad prime.
+Time: 2.180
+Time: 479.730
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^17),
+b := [ 1 + O(3^35), O(3^17), O(3^34) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^16),
+b := [ 1 + O(3^35), 1 + O(3^16), 2 + O(3^16) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^32),
+b := [ 1 + O(3^35), O(3^35), O(3^16) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^34),
+b := [ 1 + O(3^35), -1 + O(3^17), -2 + O(3^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^17),
+b := [ 1 + O(3^35), 1 + O(3^18), O(3^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^17),
+b := [ 1 + O(3^35), 1 + O(3^17), O(3^17) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^35),
+b := [ 1 + O(3^35), 1 + O(3^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 1 + O(3^35), 2 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^35),
+b := [ 1 + O(3^35), 1 + O(3^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(3^35),
+b := [ 1 + O(3^35), -1 + O(3^35), -2 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 0, 0 ],
+inf := true>
+] (6 pts)
+found all Q-points!
+
+In file "X0NstarCCsolver.m", line 128, (unexpanded) column 1:
+<Source not available>
+User error: bad syntax
+> quit;
+
+Total time: 485.960 seconds, Total memory usage: 118.25MB

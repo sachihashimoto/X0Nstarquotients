@@ -1,0 +1,1 @@
+seq -w 1 6 | parallel magma index:={} X0396star.m

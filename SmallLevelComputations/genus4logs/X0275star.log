@@ -1,0 +1,150 @@
+275
+Curve over Rational Field defined by
+z[1]^2*z[3] - z[1]*z[2]^2 + 4*z[1]*z[2]*z[4] - 17*z[1]*z[4]^2 - 2*z[2]^2*z[3] - 
+    8*z[2]^2*z[4] + 3*z[2]*z[3]^2 + 20*z[2]*z[3]*z[4] + 23*z[2]*z[4]^2 - z[3]^3 
+    - 11*z[3]^2*z[4] - 11*z[3]*z[4]^2 - 10*z[4]^3,
+z[1]^2*z[4] - 3*z[1]*z[2]*z[4] + 3*z[1]*z[4]^2 - z[2]^3 + 3*z[2]^2*z[3] + 
+    4*z[2]^2*z[4] - 3*z[2]*z[3]^2 - 6*z[2]*z[3]*z[4] - 5*z[2]*z[4]^2 + z[3]^3 + 
+    3*z[3]^2*z[4] + 3*z[3]*z[4]^2 + 2*z[4]^3,
+z[1]*z[2]*z[3] - 3*z[1]*z[2]*z[4] - z[2]^3 + 3*z[2]^2*z[3] + 4*z[2]^2*z[4] - 
+    2*z[2]*z[3]^2 - 2*z[2]*z[3]*z[4] - 2*z[2]*z[4]^2,
+z[1]*z[3]^2 - 9*z[1]*z[4]^2 - z[2]^2*z[3] - 3*z[2]^2*z[4] + 3*z[2]*z[3]^2 + 
+    13*z[2]*z[3]*z[4] + 12*z[2]*z[4]^2 - 2*z[3]^3 - 8*z[3]^2*z[4] - 
+    8*z[3]*z[4]^2 - 6*z[4]^3,
+z[1]*z[3]*z[4] - 3*z[1]*z[4]^2 - z[2]^2*z[4] + 3*z[2]*z[3]*z[4] + 4*z[2]*z[4]^2 
+    - 2*z[3]^2*z[4] - 2*z[3]*z[4]^2 - 2*z[4]^3
+g = 4
+r = 3
+4 small points: [ (1 : 0 : 0 : 0), (0 : 1 : 1 : 0), (2 : 2 : 2 : 1), (-1 : -1 : 
+-1 : 1) ]
+checking: differences of 3 points generate rank 3 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 17: ell = 5
+found 4 plane models:
+{
+y^5 + (-3*x + 1)*y^4 + (3*x^2 - 6*x + 8)*y^3 + (-x^3 + 8*x^2 - 21*x + 11)*y^2 + 
+(-3*x^3 + 19*x^2 - 25*x + 11)*y + x^4 - 8*x^3 + 11*x^2 - 7*x + 4,
+y^5 + (2*x - 3)*y^4 + (x^2 + 7)*y^3 + (4*x^2 - 5*x - 10)*y^2 + (x^3 - 2*x^2 + 
+4*x + 8)*y - x^4 + 2*x^3 + 3*x^2 - 4*x - 4,
+y^5 + (-3*x - 4)*y^4 + (x^2 + 11*x + 14)*y^3 + (4*x^3 - 18*x^2 - 16*x - 23)*y^2 
++ (3*x^3 + 22*x^2 + 11*x + 16)*y - 4*x^4 + 2*x^3 - 11*x^2 - 2*x - 4,
+y^5 + (9/19*x - 61/19)*y^4 + (-8/19*x^2 - 22/19*x + 83/19)*y^3 + (1/19*x^3 + 
+6/19*x^2 + 26/19*x - 59/19)*y^2 + (6/19*x^3 - 8/19*x^2 - 13/19*x + 22/19)*y - 
+1/19*x^4 - 1/19*x^3 + 1/19*x^2 + 4/19*x - 4/19
+}
+
+trying model #
+y^5 + (-3*x + 1)*y^4 + (3*x^2 - 6*x + 8)*y^3 + (-x^3 + 8*x^2 - 21*x + 11)*y^2 + 
+(-3*x^3 + 19*x^2 - 25*x + 11)*y + x^4 - 8*x^3 + 11*x^2 - 7*x + 4p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+Time: 107.410
+p = 17 fails: 
+rational_points(
+    N: 275,
+    X: Curve over Rational Field defined by z[1]^2*z[3] - z[1]*z[2]...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #
+y^5 + (2*x - 3)*y^4 + (x^2 + 7)*y^3 + (4*x^2 - 5*x - 10)*y^2 + (x^3 - 2*x^2 + 
+4*x + 8)*y - x^4 + 2*x^3 + 3*x^2 - 4*x - 4p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+Time: 102.230
+p = 17 fails: 
+rational_points(
+    N: 275,
+    X: Curve over Rational Field defined by z[1]^2*z[3] - z[1]*z[2]...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #
+y^5 + (-3*x - 4)*y^4 + (x^2 + 11*x + 14)*y^3 + (4*x^3 - 18*x^2 - 16*x - 23)*y^2 
++ (3*x^3 + 22*x^2 + 11*x + 16)*y - 4*x^4 + 2*x^3 - 11*x^2 - 2*x - 4p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 47.900
+Time: 1662.850
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^35),
+b := [ 1 + O(7^35), O(7^33), O(7^35), O(7^35), -2254873168248004652873319456 + 
+O(7^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^33),
+b := [ 1 + O(7^35), 1 + O(7^33), 1 + O(7^33), 1 + O(7^33), 
+483187107481715282758568401 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1932748429926861131034273602 + O(7^33),
+b := [ 1 + O(7^35), 1 + O(7^33), 1 + O(7^33), 1 + O(7^33), 
+2415935537408576413792841999 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^33),
+b := [ 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 
+483187107481715282758568398 + O(7^33) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^35),
+b := [ 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 
+23676168266604048855169851619 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 
+23676168266604048855169851622 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 94704673066416195420679406486 + O(7^35),
+b := [ 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 1 + O(7^35), 
+118380841333020244275849258104 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0, 0, -110488785244152227990792641154 + O(7^35) ],
+inf := true>
+] (4 pts)
+found all Q-points!

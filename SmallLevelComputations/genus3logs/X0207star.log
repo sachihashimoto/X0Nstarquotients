@@ -1,0 +1,68 @@
+207
+Hyperelliptic Curve defined by y^2 = x^8 - 6*x^7 + 11*x^6 - 12*x^5 + 9*x^4 - 12*x^3 + 11*x^2 - 6*x + 1 over Rational Field
+g = 3
+r = 2
+4 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (0 : -1 : 1), (0 : 1 : 1) @}
+checking: differences of 3 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 11: ell = 3
+
+rational_points(
+N: 207,
+X: X
+)
+In file "X0NstarCCsolver.m", line 83, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+{
+y^2 - x^8 + 6*x^7 - 11*x^6 + 12*x^5 - 9*x^4 + 12*x^3 - 11*x^2 + 6*x - 1
+}
+
+trying model #
+y^2 - x^8 + 6*x^7 - 11*x^6 + 12*x^5 - 9*x^4 + 12*x^3 - 11*x^2 + 6*x - 1p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 0.330
+Time: 10.710
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), -1 + O(5^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), 1 + O(5^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), -1 + O(5^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), 1 + O(5^33) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := true>
+] (4 pts)
+found all Q-points!
+> quit;
+
+Total time: 14.019 seconds, Total memory usage: 64.12MB

@@ -1,0 +1,165 @@
+g = 4
+r = 0
+3 small points: [ (-1 : 1 : 1 : 1), (0 : 0 : 1 : 0), (0 : 0 : 0 : 1) ]
+checking: differences of 2 points generate rank 0 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 3 plane models:
+[
+y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (25/6*x^3 - 5/4*x^2 + 
+1/2*x + 1/12)*y^2 + (5/3*x^4 - 5/6*x^3 - 17/12*x^2 - 2/3*x)*y + 1/3*x^5 - 
+1/3*x^3 + 1/12*x,
+y^4 + (x^2 - 2/3*x)*y^3 + (4/3*x^3 - 1/3*x^2 + 1/3*x - 2/3)*y^2 + (1/3*x^4 + 
+8/3*x^3)*y + 1/3*x^5 + 4/3*x^4 - 2*x^3 - 4/3*x^2 - 2/3*x,
+y^4 + (x^2 - 2/3*x)*y^3 + (4/3*x^3 - 1/3*x^2 + 1/3*x - 2/3)*y^2 + (1/3*x^4 + 
+8/3*x^3)*y + 1/3*x^5 + 4/3*x^4 - 2*x^3 - 4/3*x^2 - 2/3*x
+]
+
+trying model #1:
+y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (25/6*x^3 - 5/4*x^2 + 
+1/2*x + 1/12)*y^2 + (5/3*x^4 - 5/6*x^3 - 17/12*x^2 - 2/3*x)*y + 1/3*x^5 - 
+1/3*x^3 + 1/12*x
+p = 2 fails: 
+rational_points(
+    N: 200
+)
+coleman_data(
+    Q: y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (2...,
+    p: 2,
+    N: 35
+)
+genus(
+    Q: y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (2...,
+    p: 2
+)
+In file "auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 3 fails: 
+rational_points(
+    N: 200
+)
+coleman_data(
+    Q: y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (2...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^5 + (25/6*x - 5/12)*y^4 + (5*x^2 - 10/3*x - 7/12)*y^3 + (2...,
+    p: 3
+)
+In file "auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+Time: 47.700
+Time: 5245.340
+found 7 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^18),
+b := [ 1 + O(11^35), O(11^9), O(11^18), O(11^27), -104116171*11 + O(11^9) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -11927983318 + O(11^10),
+b := [ 1 + O(11^35), 6244373907 + O(11^10), -8067271868 + O(11^10), -1708530167 
++ O(11^10), 4676488093 + O(11^10) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 11927983317 + O(11^10),
+b := [ 1 + O(11^35), -6244373895 + O(11^10), -2307697886 + O(11^10), -3478954062
++ O(11^10), 4676488093 + O(11^10) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 8724701134443203659279401876900 + O(11^30),
+b := [ 1 + O(11^35), 6 + O(11^10), 36 + O(11^10), 216 + O(11^10), 
+-230657141119734849948 + O(11^20) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^18),
+b := [ 1 + O(11^35), 12 + O(11^9), 144 + O(11^9), 1728 + O(11^9), -104116171*11 
++ O(11^9) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 11927983316 + O(11^10),
+b := [ 1 + O(11^35), -6244373895 + O(11^10), -2307697886 + O(11^10), -3478954062
++ O(11^10), 12368106648 + O(11^10) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -11927983317 + O(11^10),
+b := [ 1 + O(11^35), 6244373907 + O(11^10), -8067271868 + O(11^10), -1708530167 
++ O(11^10), 12368106648 + O(11^10) ],
+inf := false>
+] (7 pts)
+ratpts = {@ (-1/2 : 1/2 : 1), (0 : 0 : 1), (-1 : 1 : 1) @} (3 pts)
+have to exclude 4 residue discs.
+Time: 40.910
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 17 fails: Runtime error: bad prime.
+Time: 87.040
+p = 19 fails: Runtime error: Frobenius does not converge at P.
+Time: 109.950
+p = 23 fails: Runtime error: Frobenius does not converge at P.
+p = 29 fails: Runtime error: bad prime.
+p = 31 fails: Runtime error: bad prime.
+Time: 237.960
+p = 37 fails: Runtime error: Frobenius does not converge at P.
+
+trying model #2:
+y^4 + (x^2 - 2/3*x)*y^3 + (4/3*x^3 - 1/3*x^2 + 1/3*x - 2/3)*y^2 + (1/3*x^4 + 
+8/3*x^3)*y + 1/3*x^5 + 4/3*x^4 - 2*x^3 - 4/3*x^2 - 2/3*x
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: 
+rational_points(
+    N: 200
+)
+coleman_data(
+    Q: y^4 + (x^2 - 2/3*x)*y^3 + (4/3*x^3 - 1/3*x^2 + 1/3*x - 2/3)*...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^4 + (x^2 - 2/3*x)*y^3 + (4/3*x^3 - 1/3*x^2 + 1/3*x - 2/3)*...,
+    p: 3
+)
+In file "auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+Time: 26.670
+p = 11 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 30.140
+Time: 5472.290
+found 3 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^16),
+b := [ 1 + O(13^35), -3 + O(13^16), -332708304591589916 + O(13^16), -27 + 
+O(13^32) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^32),
+b := [ 1 + O(13^35), O(13^16), -11 + O(13^16), 221805536394393295 + O(13^16) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(13^16),
+b := [ 1 + O(13^35), 3 + O(13^16), -17 + O(13^16), 221805536394393252 + O(13^16)
+],
+inf := false>
+] (3 pts)
+ratpts = {@ (0 : 1 : 0), (0 : 0 : 1), (-1 : 1 : 1) @} (3 pts)
+found all Q-points!
+
+Total time: 12312.420 seconds, Total memory usage: 613.59MB

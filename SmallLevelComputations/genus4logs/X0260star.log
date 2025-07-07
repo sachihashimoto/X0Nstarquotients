@@ -1,0 +1,361 @@
+260
+g = 4
+r = 2
+7 small points: [ (0 : -1 : 0 : 1), (0 : 1 : 1 : 0), (1/3 : -5/6 : -5/6 : 1), 
+(-1/2 : 0 : 0 : 1), (1 : -1/2 : 3/2 : 1), (0 : 0 : 0 : 1), (0 : 0 : -1 : 1) ]
+checking: differences of 6 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 7: ell = 2
+found 7 plane models:
+[
+y^4 + (6*x^2 - x - 1)*y^3 + (16*x^4 - 13*x^3 - 4*x^2 + x)*y^2 + (24*x^6 - 32*x^5
+- 2*x^4 + 9*x^3 + x^2)*y + 16*x^8 - 40*x^7 + 20*x^6 + 9*x^5 - 5*x^4 - x^3,
+y^5 + (x + 1)*y^4 + (-x - 1)*y^3 + (3*x^3 - 2*x^2 - 4*x - 1)*y^2 + (x^4 - 7*x^3 
+- 2*x^2 - x)*y - 6*x^5 - 7*x^4 - 6*x^3 + x,
+y^5 + (-5*x - 155/23)*y^4 + (-678/23*x^2 - 10*x + 198/23)*y^3 + (-785/23*x^3 + 
+936/23*x^2 + 648/23*x - 70/23)*y^2 + (-171/23*x^4 + 1396/23*x^3 - 18/23*x^2 - 
+290/23*x + 3/23)*y + 210/23*x^5 + 525/23*x^4 - 323/23*x^3 - 48/23*x^2 + 35/23*x 
++ 1/23,
+y^5 - 5/3*y^4 + (-8/3*x^2 + 1)*y^3 + (-4/3*x^2 - 2/3*x + 5/3)*y^2 + (-16/3*x^4 +
+16/3*x^3 + 4*x^2 - 10/3*x - 2/3)*y - 8/3*x^3 + 4*x^2 - 4/3,
+y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 + (-11*x^3 + 
+424/15*x^2 - 68/3*x + 82/15)*y^2 + (-187/15*x^4 + 584/15*x^3 - 130/3*x^2 + 
+298/15*x - 3)*y - 42/5*x^5 + 437/15*x^4 - 571/15*x^3 + 344/15*x^2 - 31/5*x + 
+3/5,
+y^4 + (x^2 - 3/2*x + 1/2)*y^3 + (x^4 - 13/4*x^3 + 5/4*x^2 - 1/2*x)*y^2 + (-2*x^5
++ 9/4*x^4 - 5/4*x^3)*y - 5/4*x^7 + 7/4*x^6 - 3/4*x^5,
+y^5 + (7*x + 1)*y^4 + (10*x^2 - 8*x - 1)*y^3 + (-14*x^3 - 21*x^2 - x - 1)*y^2 + 
+(-19*x^4 - 9*x^3 - 2*x)*y - 10*x^5 + x^4 + x^3 - x^2
+]
+
+trying model #1:
+y^4 + (6*x^2 - x - 1)*y^3 + (16*x^4 - 13*x^3 - 4*x^2 + x)*y^2 + (24*x^6 - 32*x^5
+- 2*x^4 + 9*x^3 + x^2)*y + 16*x^8 - 40*x^7 + 20*x^6 + 9*x^5 - 5*x^4 - x^3
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 20.870
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+p = 17 fails: Runtime error: bad prime.
+Time: 58.140
+p = 19 fails: Runtime error: something is wrong, number of approximate roots is 
+different from 1.
+
+trying model #2:
+y^5 + (x + 1)*y^4 + (-x - 1)*y^3 + (3*x^3 - 2*x^2 - 4*x - 1)*y^2 + (x^4 - 7*x^3 
+- 2*x^2 - x)*y - 6*x^5 - 7*x^4 - 6*x^3 + x
+p = 2 fails: Runtime error: bad prime.
+Time: 15.300
+p = 3 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 5 fails: Runtime error: bad prime.
+Time: 42.230
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 71.020
+p = 11 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 13 fails: Runtime error: bad prime.
+Time: 124.460
+p = 17 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 141.260
+p = 19 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+
+trying model #3:
+y^5 + (-5*x - 155/23)*y^4 + (-678/23*x^2 - 10*x + 198/23)*y^3 + (-785/23*x^3 + 
+936/23*x^2 + 648/23*x - 70/23)*y^2 + (-171/23*x^4 + 1396/23*x^3 - 18/23*x^2 - 
+290/23*x + 3/23)*y + 210/23*x^5 + 525/23*x^4 - 323/23*x^3 - 48/23*x^2 + 35/23*x 
++ 1/23
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+Time: 105.730
+Time: 523.500
+found 8 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^33),
+b := [ 1 + O(11^35), 23 + O(11^33), 529 + O(11^33), 12167 + O(11^33), 
+9953637608523346346143614773548995 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(11^33),
+b := [ 1 + O(11^35), -115 + O(11^33), 13225 + O(11^33), -1520875 + O(11^33), 
+6635758405682230897429076903636788 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 9290061767955123256400707118523652 + O(11^33),
+b := [ 1 + O(11^35), 844551069814102114218246101683973*11 + O(11^33), 
+84455106981410211421824610168418*11^2 + O(11^34), 
+810769027021538029649516257616707*11^3 + O(11^35), 
+-6104897733227652425634750411719576 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 9290061767955123256400707118523652 + O(11^33),
+b := [ 1 + O(11^35), -9290061767955123256400707118523657 + O(11^33), 
+-8361055591159610930760636406671266 + O(11^33), 
+1300608647513717255896098996593214 + O(11^33), 
+-4645030883977561628200353561745909 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 9290061767955123256400707118523652 + O(11^33),
+b := [ 1 + O(11^35), 23 + O(11^33), 529 + O(11^33), 12167 + O(11^33), 
+9953637608523346346143614765220419 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -6635758405682230897429076513231180 + O(11^33),
+b := [ 1 + O(11^35), -6635758405682230897429076513231177 + O(11^33), 
+11375585838312395824164131165539177 + O(11^33), 
+-2437625536781227676606599535472643 + O(11^33), 
+-430893402966378629703186786514792*11 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^33),
+b := [ 1 + O(11^35), 23 + O(11^33), 529 + O(11^33), 12167 + O(11^33), 
+9953637608523346346143614768568989 + O(11^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -7338817098123519196735417720708303 + O(11^33),
+b := [ 1 + O(11^35), -4549777463756426906400239653633630*11 + O(11^34), 
+1043540759083729797578204896250888*11^2 + O(11^35), 
+-4909322641803375048038636015559667*11^3 + O(11^36), 
+10458892883299579674768897931143001 + O(11^33) ],
+inf := false>
+] (8 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1124097473922569914024485561341361940 + O(11^35),
+b := [ 1 + O(11^35), 1124097473922569914024485561341361945*11 + O(11^36), 
+-449638989569027965609794224536544755*11^2 + O(11^37), 
+741904332788896143256160470485298978*11^3 + O(11^38), 
+-818985302429300937360696623282539161 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1124097473922569914024485561341361940 + O(11^35),
+b := [ 1 + O(11^35), 23 + O(11^35), 529 + O(11^35), 12167 + O(11^35), 
+-802926767087549938588918258105599166 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1124097473922569914024485561341361940 + O(11^35),
+b := [ 1 + O(11^35), -1124097473922569914024485561341361945 + O(11^35), 
+-449638989569027965609794224536544755 + O(11^35), 
+-741904332788896143256160470485298978 + O(11^35), 
+-562048736961284957012242780673165053 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(11^35),
+b := [ 1 + O(11^35), -115 + O(11^35), 13225 + O(11^35), -1520875 + O(11^35), 
+401463383543774969294459129440892015 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 23 + O(11^35), 529 + O(11^35), 12167 + O(11^35), 
+-802926767087549938588918258097270590 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^35),
+b := [ 1 + O(11^35), 23 + O(11^35), 529 + O(11^35), 12167 + O(11^35), 
+-802926767087549938588918258102250596 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -401463383543774969294459129050486407 + O(11^35),
+b := [ 1 + O(11^35), -401463383543774969294459129050486404 + O(11^35), 
+-917630590957199929815906580686826063 + O(11^35), 
+-606291640453864239342652562239510049 + O(11^35), 
+630871031283074951748435774222251587*11 + O(11^36) ],
+inf := false>
+] (7 pts)
+have to exclude 1 residue discs.
+p = 13 fails: Runtime error: bad prime.
+p = 17 fails: Runtime error: bad prime.
+Time: 209.370
+p = 19 fails: Runtime error: something is wrong, number of approximate roots is 
+different from 1.
+
+trying model #4:
+y^5 - 5/3*y^4 + (-8/3*x^2 + 1)*y^3 + (-4/3*x^2 - 2/3*x + 5/3)*y^2 + (-16/3*x^4 +
+16/3*x^3 + 4*x^2 - 10/3*x - 2/3)*y - 8/3*x^3 + 4*x^2 - 4/3
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: 
+rational_points(
+    N: 260,
+    X: Curve over Rational Field defined by 2*x[1]^3 - x[1]^2*x[2] ...
+)
+coleman_data(
+    Q: y^5 - 5/3*y^4 + (-8/3*x^2 + 1)*y^3 + (-4/3*x^2 - 2/3*x + 5/3...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^5 - 5/3*y^4 + (-8/3*x^2 + 1)*y^3 + (-4/3*x^2 - 2/3*x + 5/3...,
+    p: 3
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: Runtime error: bad prime.
+Time: 57.280
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+Time: 165.390
+p = 17 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #5:
+y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 + (-11*x^3 + 
+424/15*x^2 - 68/3*x + 82/15)*y^2 + (-187/15*x^4 + 584/15*x^3 - 130/3*x^2 + 
+298/15*x - 3)*y - 42/5*x^5 + 437/15*x^4 - 571/15*x^3 + 344/15*x^2 - 31/5*x + 3/5
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: 
+rational_points(
+    N: 260,
+    X: Curve over Rational Field defined by 2*x[1]^3 - x[1]^2*x[2] ...
+)
+coleman_data(
+    Q: y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 +...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 +...,
+    p: 3
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: 
+rational_points(
+    N: 260,
+    X: Curve over Rational Field defined by 2*x[1]^3 - x[1]^2*x[2] ...
+)
+coleman_data(
+    Q: y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 +...,
+    p: 5,
+    N: 35
+)
+genus(
+    Q: y^5 + (3/5*x + 1/3)*y^4 + (-38/15*x^2 + 22/3*x - 22/5)*y^3 +...,
+    p: 5
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+p = 17 fails: Runtime error: bad prime.
+Time: 203.570
+p = 19 fails: Runtime error: something is wrong, number of approximate roots is 
+different from 1.
+
+trying model #6:
+y^4 + (x^2 - 3/2*x + 1/2)*y^3 + (x^4 - 13/4*x^3 + 5/4*x^2 - 1/2*x)*y^2 + (-2*x^5
++ 9/4*x^4 - 5/4*x^3)*y - 5/4*x^7 + 7/4*x^6 - 3/4*x^5
+p = 2 fails: 
+rational_points(
+    N: 260,
+    X: Curve over Rational Field defined by 2*x[1]^3 - x[1]^2*x[2] ...
+)
+coleman_data(
+    Q: y^4 + (x^2 - 3/2*x + 1/2)*y^3 + (x^4 - 13/4*x^3 + 5/4*x^2 - ...,
+    p: 2,
+    N: 35
+)
+genus(
+    Q: y^4 + (x^2 - 3/2*x + 1/2)*y^3 + (x^4 - 13/4*x^3 + 5/4*x^2 - ...,
+    p: 2
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 19.290
+Time: 23551.350
+found 7 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^35),
+b := [ 1 + O(7^35), O(7^21), O(7^35), 6 + O(7^22) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^21),
+b := [ 1 + O(7^35), O(7^35), O(7^21), -5 + O(7^21) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^21),
+b := [ 1 + O(7^35), -1 + O(7^21), -1 + O(7^35), -5 + O(7^21) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^21),
+b := [ 1 + O(7^35), O(7^21), 2 + O(7^21), -9 + O(7^21) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^21),
+b := [ 1 + O(7^35), O(7^35), O(7^21), -9 + O(7^21) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 126272897421888260560905875315 + O(7^35),
+b := [ 1 + O(7^35), 8865807366401333 + O(7^20), -5910538244267556 + O(7^20), 
+42090965807296086853635291770 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -75763738453132956336543525189 + O(7^35),
+b := [ 1 + O(7^35), 223418345633313602 + O(7^21), -111709172816656801 + O(7^21),
+-5 + O(7^35) ],
+inf := false>
+] (7 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 126272897421888260560905875315 + O(7^35),
+b := [ 1 + O(7^35), 42090965807296086853635291771 + O(7^35), 
+-154333541293418985129996069829 + O(7^35), 42090965807296086853635291770 + 
+O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -75763738453132956336543525189 + O(7^35),
+b := [ 1 + O(7^35), -151527476906265912673087050378 + O(7^35), 
+75763738453132956336543525189 + O(7^35), -5 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 2 + O(7^35), -9 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), -1 + O(7^35), -1 + O(7^35), -5 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0, -9 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0, -5 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0, 6 + O(7^35) ],
+inf := true>
+] (7 pts)
+found all Q-points!

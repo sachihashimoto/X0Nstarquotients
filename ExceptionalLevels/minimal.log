@@ -1,0 +1,1238 @@
+minimal levels 1.1, { 40, 48, 80, 88, 96, 99, 112, 135, 147, 162, 176, 184, 224,
+250, 297, 368, 405, 486, 1029, 1250 }
+minimal levels 1.2, { 40, 48, 80, 88, 96, 99, 112, 135, 147, 162, 176, 184, 224,
+240, 250, 297, 368, 405, 486, 1029, 1250 }
+minimal levels 1.2, { 40, 48, 80, 88, 96, 99, 112, 120, 135, 147, 162, 176, 184,
+224, 240, 250, 297, 368, 405, 486, 1029, 1250 }
+minimal levels 2, { 40, 48, 80, 88, 96, 99, 100, 112, 120, 135, 144, 147, 162, 
+176, 184, 196, 224, 225, 240, 250, 297, 324, 368, 405, 441, 486, 676, 1029, 
+1225, 1250, 1521, 4225, 8281 }
+minimal levels 2, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 184, 196, 200, 224, 225, 240, 250, 297, 324, 368, 405, 441, 486, 
+500, 676, 1029, 1125, 1225, 1250, 1323, 1372, 1521, 4225, 8281 }
+minimal levels 2, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 184, 196, 200, 224, 225, 240, 250, 297, 324, 368, 405, 441, 486, 
+500, 676, 1029, 1125, 1225, 1250, 1323, 1372, 1521, 4225, 8281 }
+minimal levels 2, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 405, 441, 
+486, 500, 676, 1000, 1029, 1125, 1225, 1250, 1323, 1372, 1521, 4225, 8281 }
+minimal levels 3, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 588, 676, 1000, 1029, 1125, 1225, 1250, 1323, 1372, 
+1521, 4225, 8281 }
+minimal levels 3, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 588, 676, 1000, 1029, 1125, 1225, 1250, 1323, 1372, 
+1521, 4225, 8281 }
+minimal levels 3, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 540, 588, 676, 1000, 1029, 1125, 1225, 1250, 1323, 
+1372, 1521, 4225, 8281 }
+minimal levels 5, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 540, 588, 676, 900, 1000, 1029, 1125, 1225, 1250, 1323,
+1372, 1521, 1764, 4225, 4900, 6084, 8281, 11025, 16900, 33124, 38025, 44100, 
+74529, 152100, 207025, 298116, 828100, 1863225, 7452900 }
+minimal levels 5, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 540, 588, 676, 900, 1000, 1029, 1125, 1225, 1250, 1323,
+1372, 1521, 1764, 4225, 4900, 6084, 8281, 11025, 16900, 33124, 38025, 44100, 
+74529, 152100, 207025, 298116, 828100, 1863225, 7452900 }
+minimal levels 5, { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 396, 
+405, 441, 450, 486, 500, 540, 588, 676, 900, 1000, 1029, 1125, 1225, 1250, 1323,
+1372, 1521, 1764, 4225, 4900, 6084, 8281, 11025, 16900, 33124, 38025, 44100, 
+74529, 152100, 207025, 298116, 828100, 1863225, 7452900 }
+minimal levels:  { 40, 48, 72, 80, 88, 96, 99, 100, 108, 112, 120, 135, 144, 
+147, 162, 169, 176, 180, 184, 196, 200, 216, 224, 225, 240, 250, 297, 324, 368, 
+405, 441, 450, 486, 500, 1029, 1125, 1225, 1250, 1372 }
+minimal levels not almost squarefree:  { 72, 100, 108, 144, 180, 196, 200, 216, 
+225, 324, 441, 450, 500, 1125, 1225, 1372 }
+minimal levels almost squarefree:  { 40, 48, 80, 88, 96, 99, 112, 120, 135, 147,
+162, 169, 176, 184, 224, 240, 250, 297, 368, 405, 486, 1029, 1250 }
+factorizations:
+[
+[ <2, 3>, <5, 1> ],
+[ <2, 4>, <3, 1> ],
+[ <2, 3>, <3, 2> ],
+[ <2, 4>, <5, 1> ],
+[ <2, 3>, <11, 1> ],
+[ <2, 5>, <3, 1> ],
+[ <3, 2>, <11, 1> ],
+[ <2, 2>, <5, 2> ],
+[ <2, 2>, <3, 3> ],
+[ <2, 4>, <7, 1> ],
+[ <2, 3>, <3, 1>, <5, 1> ],
+[ <3, 3>, <5, 1> ],
+[ <2, 4>, <3, 2> ],
+[ <3, 1>, <7, 2> ],
+[ <2, 1>, <3, 4> ],
+[ <13, 2> ],
+[ <2, 4>, <11, 1> ],
+[ <2, 2>, <3, 2>, <5, 1> ],
+[ <2, 3>, <23, 1> ],
+[ <2, 2>, <7, 2> ],
+[ <2, 3>, <5, 2> ],
+[ <2, 3>, <3, 3> ],
+[ <2, 5>, <7, 1> ],
+[ <3, 2>, <5, 2> ],
+[ <2, 4>, <3, 1>, <5, 1> ],
+[ <2, 1>, <5, 3> ],
+[ <3, 3>, <11, 1> ],
+[ <2, 2>, <3, 4> ],
+[ <2, 4>, <23, 1> ],
+[ <3, 4>, <5, 1> ],
+[ <3, 2>, <7, 2> ],
+[ <2, 1>, <3, 2>, <5, 2> ],
+[ <2, 1>, <3, 5> ],
+[ <2, 2>, <5, 3> ],
+[ <3, 1>, <7, 3> ],
+[ <3, 2>, <5, 3> ],
+[ <5, 2>, <7, 2> ],
+[ <2, 1>, <5, 4> ],
+[ <2, 2>, <7, 3> ]
+]
+N = 250 = [ <2, 1>, <5, 3> ]
+J_0(50)^new has rank 0 quotients: [ <true, 50, 1>, <true, 50, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <3, 50>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <7, 50>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 50>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <9, 50>: []
+n_c = 1
+Lcm(n_c) = 1
+
+
+N = 297 = [ <3, 3>, <11, 1> ]
+J_0(99)^new has rank 0 quotients: [ <false, 99, 1>, <true, 99, 1>, <true, 99, 
+1>, <true, 99, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <1, 99>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <2, 99>: []
+n_c = 1
+Lcm(n_c) = 1
+
+J_0(99)^new has rank 0 quotients: [ <false, 99, 1>, <true, 99, 1>, <true, 99, 
+1>, <true, 99, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <1, 99>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <2, 99>: []
+n_c = 1
+Lcm(n_c) = 1
+
+
+N = 368 = [ <2, 4>, <23, 1> ]
+J_0(92)^new has rank 0 quotients: [ <true, 92, 1>, <false, 92, 1> ]
+R_c = { 1, 4 }
+sums of roots of unity for c = <3, 92>: [ 2 ]
+n_c = 2
+R_c = { 1 }
+sums of roots of unity for c = <1, 184>: []
+n_c = 1
+R_c = { 1, 4 }
+sums of roots of unity for c = <1, 92>: [ 2 ]
+n_c = 2
+Lcm(n_c) = 2
+
+J_0(92)^new has rank 0 quotients: [ <true, 92, 1>, <false, 92, 1> ]
+R_c = { 1, 4 }
+sums of roots of unity for c = <3, 92>: [ 2 ]
+n_c = 2
+R_c = { 1 }
+sums of roots of unity for c = <1, 184>: []
+n_c = 1
+R_c = { 1, 4 }
+sums of roots of unity for c = <1, 92>: [ 2 ]
+n_c = 2
+Lcm(n_c) = 2
+
+
+N = 405 = [ <3, 4>, <5, 1> ]
+J_0(45)^new has rank 0 quotients: [ <true, 45, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <1, 135>: []
+n_c = 1
+R_c = { 1, 9 }
+sums of roots of unity for c = <8, 45>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <4, 45>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <7, 45>: [ 3 ]
+n_c = 3
+R_c = { 1 }
+sums of roots of unity for c = <2, 135>: []
+n_c = 1
+R_c = { 1, 9 }
+sums of roots of unity for c = <14, 45>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <1, 45>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <2, 45>: [ 3 ]
+n_c = 3
+Lcm(n_c) = 3
+
+
+N = 441 = [ <3, 2>, <7, 2> ]
+J_0(21)^new has rank 0 quotients: [ <true, 21, 1> ]
+R_c = { 1, 7 }
+sums of roots of unity for c = <10, 63>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <13, 63>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <5, 63>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <16, 21>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <2, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <4, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <1, 21>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <20, 21>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <8, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <11, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <10, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 7 }
+sums of roots of unity for c = <4, 63>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <19, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 3 }
+sums of roots of unity for c = <2, 147>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <5, 21>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <2, 63>: []
+n_c = 1
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <17, 21>: [ 3 ]
+n_c = 3
+R_c = { 1, 7 }
+sums of roots of unity for c = <1, 63>: []
+n_c = 1
+R_c = { 1, 3 }
+sums of roots of unity for c = <1, 147>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 7, 21 }
+sums of roots of unity for c = <13, 21>: [ 3 ]
+n_c = 3
+Lcm(n_c) = 3
+
+
+N = 450 = [ <2, 1>, <3, 2>, <5, 2> ]
+J_0(15)^new has rank 0 quotients: [ <true, 15, 1> ]
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <7, 30>: [ 31 ]
+n_c = 31
+R_c = { 1, 5 }
+sums of roots of unity for c = <7, 90>: [ 5 ]
+n_c = 5
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <11, 30>: [ 31 ]
+n_c = 31
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <1, 30>: [ 31 ]
+n_c = 31
+R_c = { 1, 5 }
+sums of roots of unity for c = <1, 90>: [ 5 ]
+n_c = 5
+R_c = { 1, 3 }
+sums of roots of unity for c = <11, 150>: []
+n_c = 1
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <13, 30>: [ 31 ]
+n_c = 31
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <17, 30>: [ 5 ]
+n_c = 5
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <23, 30>: [ 5 ]
+n_c = 5
+R_c = { 1, 3 }
+sums of roots of unity for c = <1, 150>: []
+n_c = 1
+R_c = { 1, 5 }
+sums of roots of unity for c = <19, 90>: [ 5 ]
+n_c = 5
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <29, 30>: [ 5 ]
+n_c = 5
+R_c = { 1, 5 }
+sums of roots of unity for c = <13, 90>: [ 5 ]
+n_c = 5
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <19, 30>: [ 5 ]
+n_c = 5
+Lcm(n_c) = 155
+
+J_0(30)^new has rank 0 quotients: [ <true, 30, 1> ]
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <7, 30>: [ 151 ]
+n_c = 151
+R_c = { 1, 5 }
+sums of roots of unity for c = <7, 90>: []
+n_c = 1
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <11, 30>: [ 151 ]
+n_c = 151
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <1, 30>: [ 151 ]
+n_c = 151
+R_c = { 1, 5 }
+sums of roots of unity for c = <1, 90>: []
+n_c = 1
+R_c = { 1, 3 }
+sums of roots of unity for c = <11, 150>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <13, 30>: [ 151 ]
+n_c = 151
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <17, 30>: [ 3 ]
+n_c = 3
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <23, 30>: [ 3 ]
+n_c = 3
+R_c = { 1, 3 }
+sums of roots of unity for c = <1, 150>: [ 3 ]
+n_c = 3
+R_c = { 1, 5 }
+sums of roots of unity for c = <19, 90>: []
+n_c = 1
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <29, 30>: [ 3 ]
+n_c = 3
+R_c = { 1, 5 }
+sums of roots of unity for c = <13, 90>: []
+n_c = 1
+R_c = { 1, 3, 5, 15 }
+sums of roots of unity for c = <19, 30>: [ 3 ]
+n_c = 3
+Lcm(n_c) = 453
+
+
+N = 486 = [ <2, 1>, <3, 5> ]
+J_0(27)^new has rank 0 quotients: [ <true, 27, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <7, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <5, 162>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <5, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <17, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <13, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <11, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 162>: []
+n_c = 1
+Lcm(n_c) = 1
+
+J_0(54)^new has rank 0 quotients: [ <true, 54, 1>, <true, 54, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <7, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <5, 162>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <5, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <17, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <13, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <11, 54>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 162>: []
+n_c = 1
+Lcm(n_c) = 1
+
+
+N = 891 = [ <3, 4>, <11, 1> ]
+J_0(99)^new has rank 0 quotients: [ <false, 99, 1>, <true, 99, 1>, <true, 99, 
+1>, <true, 99, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <2, 297>: []
+n_c = 1
+R_c = { 1, 9 }
+sums of roots of unity for c = <8, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <1, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <7, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <4, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <5, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <2, 99>: [ 3 ]
+n_c = 3
+R_c = { 1 }
+sums of roots of unity for c = <1, 297>: []
+n_c = 1
+Lcm(n_c) = 3
+
+J_0(99)^new has rank 0 quotients: [ <false, 99, 1>, <true, 99, 1>, <true, 99, 
+1>, <true, 99, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <2, 297>: []
+n_c = 1
+R_c = { 1, 9 }
+sums of roots of unity for c = <8, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <1, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <7, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <4, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <5, 99>: [ 3 ]
+n_c = 3
+R_c = { 1, 9 }
+sums of roots of unity for c = <2, 99>: [ 3 ]
+n_c = 3
+R_c = { 1 }
+sums of roots of unity for c = <1, 297>: []
+n_c = 1
+Lcm(n_c) = 3
+
+
+N = 1029 = [ <3, 1>, <7, 3> ]
+J_0(49)^new has rank 0 quotients: [ <true, 49, 1> ]
+R_c = { 1 }
+sums of roots of unity for c = <5, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <4, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <13, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <10, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <2, 147>: []
+n_c = 1
+Lcm(n_c) = 1
+
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+R_c = { 1 }
+sums of roots of unity for c = <5, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <4, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <13, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <10, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <2, 147>: []
+n_c = 1
+Lcm(n_c) = 1
+
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+R_c = { 1 }
+sums of roots of unity for c = <5, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <1, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <4, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <13, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <10, 147>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <2, 147>: []
+n_c = 1
+Lcm(n_c) = 1
+
+
+N = 1225 = [ <5, 2>, <7, 2> ]
+J_0(35)^new has rank 0 quotients: [ <true, 35, 1>, <true, 35, 2> ]
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <8, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <17, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <16, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <29, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <34, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <32, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 7 }
+sums of roots of unity for c = <2, 175>: [ 7 ]
+n_c = 7
+R_c = { 1, 7 }
+sums of roots of unity for c = <1, 175>: [ 7 ]
+n_c = 7
+R_c = { 1, 5 }
+sums of roots of unity for c = <1, 245>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <2, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <9, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <4, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <31, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <11, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 7 }
+sums of roots of unity for c = <4, 175>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <3, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <24, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <12, 35>: []
+n_c = 1
+R_c = { 1, 5 }
+sums of roots of unity for c = <2, 245>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <22, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <6, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <19, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <1, 35>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <12, 175>: [ 7 ]
+n_c = 7
+R_c = { 1, 5 }
+sums of roots of unity for c = <3, 245>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <6, 175>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <23, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <27, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <13, 35>: []
+n_c = 1
+R_c = { 1, 5 }
+sums of roots of unity for c = <4, 245>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <33, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <18, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <26, 35>: [ 7 ]
+n_c = 7
+R_c = { 1, 7 }
+sums of roots of unity for c = <3, 175>: [ 7 ]
+n_c = 7
+Lcm(n_c) = 7
+
+J_0(35)^new has rank 0 quotients: [ <true, 35, 1>, <true, 35, 2> ]
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <8, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <17, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <16, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <29, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <34, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <32, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 7 }
+sums of roots of unity for c = <2, 175>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <1, 175>: []
+n_c = 1
+R_c = { 1, 5 }
+sums of roots of unity for c = <1, 245>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <2, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <9, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <4, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <31, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <11, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 7 }
+sums of roots of unity for c = <4, 175>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <3, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <24, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <12, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5 }
+sums of roots of unity for c = <2, 245>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <22, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <6, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <19, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <1, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 7 }
+sums of roots of unity for c = <12, 175>: []
+n_c = 1
+R_c = { 1, 5 }
+sums of roots of unity for c = <3, 245>: [ 5 ]
+n_c = 5
+R_c = { 1, 7 }
+sums of roots of unity for c = <6, 175>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <23, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <27, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <13, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5 }
+sums of roots of unity for c = <4, 245>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <33, 35>: [ 5 ]
+n_c = 5
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <18, 35>: []
+n_c = 1
+R_c = { 1, 5, 7, 35 }
+sums of roots of unity for c = <26, 35>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <3, 175>: []
+n_c = 1
+Lcm(n_c) = 5
+
+
+N = 1250 = [ <2, 1>, <5, 4> ]
+J_0(50)^new has rank 0 quotients: [ <true, 50, 1>, <true, 50, 1> ]
+R_c = { 1, 25 }
+sums of roots of unity for c = <29, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <33, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <9, 50>: [ 5 ]
+n_c = 5
+R_c = { 1 }
+sums of roots of unity for c = <3, 250>: []
+n_c = 1
+R_c = { 1, 25 }
+sums of roots of unity for c = <23, 50>: [ 5 ]
+n_c = 5
+R_c = { 1 }
+sums of roots of unity for c = <7, 250>: []
+n_c = 1
+R_c = { 1, 25 }
+sums of roots of unity for c = <27, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <3, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <11, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <7, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <47, 50>: [ 5 ]
+n_c = 5
+R_c = { 1 }
+sums of roots of unity for c = <1, 250>: []
+n_c = 1
+R_c = { 1 }
+sums of roots of unity for c = <9, 250>: []
+n_c = 1
+R_c = { 1, 25 }
+sums of roots of unity for c = <37, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <41, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <43, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <49, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <39, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <21, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <19, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <31, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <13, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <1, 50>: [ 5 ]
+n_c = 5
+R_c = { 1, 25 }
+sums of roots of unity for c = <17, 50>: [ 5 ]
+n_c = 5
+Lcm(n_c) = 5
+
+
+
+Total time: 302.550 seconds, Total memory usage: 32.09MB
+
+In file "rootsofunity.m", line 194, column 24:
+>>             if M notin g0Nstarnull then
+                          ^
+User error: Identifier 'g0Nstarnull' has not been declared or assigned
+N = 588 = [ <2, 2>, <3, 1>, <7, 2> ]
+J_0(42)^new has rank 0 quotients: [ <true, 42, 1> ]
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <23, 42>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <23, 84>: []
+n_c = 1
+R_c = { 1, 2 }
+sums of roots of unity for c = <1, 294>: [ 2 ]
+n_c = 2
+R_c = { 1, 7 }
+sums of roots of unity for c = <5, 84>: []
+n_c = 1
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <5, 42>: [ 2 ]
+n_c = 2
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <17, 42>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <13, 84>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <17, 84>: []
+n_c = 1
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <11, 42>: [ 2 ]
+n_c = 2
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <1, 42>: []
+n_c = 1
+R_c = { 1, 7 }
+sums of roots of unity for c = <11, 84>: []
+n_c = 1
+R_c = { 1, 2, 7, 14 }
+sums of roots of unity for c = <13, 42>: [ 2 ]
+n_c = 2
+R_c = { 1, 7 }
+sums of roots of unity for c = <1, 84>: []
+n_c = 1
+Lcm(n_c) = 2
+
+
+N = 7203 = [ <3, 1>, <7, 4> ]
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+R_c = { 1, 49 }
+sums of roots of unity for c = <19, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <41, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <4, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <58, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <31, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <97, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <22, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <64, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <88, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <32, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <25, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <1, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <61, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <10, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <17, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <29, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <40, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <85, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <1, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <16, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <94, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <52, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <34, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <44, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <67, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <47, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <55, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <5, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <37, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <13, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <23, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <76, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <2, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <26, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <46, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <2, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <43, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <82, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <10, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <79, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <11, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <13, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <8, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <73, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <20, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <4, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <5, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <38, 147>: [ 7 ]
+n_c = 7
+Lcm(n_c) = 7
+
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+R_c = { 1, 49 }
+sums of roots of unity for c = <19, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <41, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <4, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <58, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <31, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <97, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <22, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <64, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <88, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <32, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <25, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <1, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <61, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <10, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <17, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <29, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <40, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <85, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <1, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <16, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <94, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <52, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <34, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <44, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <67, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <47, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <55, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <5, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <37, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <13, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <23, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <76, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <2, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <26, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <46, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <2, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <43, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <82, 147>: [ 7 ]
+n_c = 7
+R_c = { 1 }
+sums of roots of unity for c = <10, 1029>: []
+n_c = 1
+R_c = { 1, 49 }
+sums of roots of unity for c = <79, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <11, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <13, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <8, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <73, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <20, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <4, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <5, 147>: [ 7 ]
+n_c = 7
+R_c = { 1, 49 }
+sums of roots of unity for c = <38, 147>: [ 7 ]
+n_c = 7
+Lcm(n_c) = 7
+
+
+
+Total time: 4.780 seconds, Total memory usage: 32.09MB
+N = 396 = [ <2, 2>, <3, 2>, <11, 1> ]
+N = 500 = [ <2, 2>, <5, 3> ]
+J_0(50)^new has rank 0 quotients: [ <true, 50, 1>, <true, 50, 1> ]
+Lcm(n_c) = 2
+
+
+N = 588 = [ <2, 2>, <3, 1>, <7, 2> ]
+J_0(42)^new has rank 0 quotients: [ <true, 42, 1> ]
+Lcm(n_c) = 2
+
+
+N = 7203 = [ <3, 1>, <7, 4> ]
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+Lcm(n_c) = 7
+
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+Lcm(n_c) = 7
+
+
+
+Total time: 4.719 seconds, Total memory usage: 32.09MB
+N = 396 = [ <2, 2>, <3, 2>, <11, 1> ]
+J_0(66)^new has rank 0 quotients: [ <true, 66, 1>, <true, 66, 1>, <true, 66, 1> 
+]
+Lcm(n_c) = 2
+
+J_0(66)^new has rank 0 quotients: [ <true, 66, 1>, <true, 66, 1>, <true, 66, 1> 
+]
+Lcm(n_c) = 6
+
+
+N = 500 = [ <2, 2>, <5, 3> ]
+J_0(50)^new has rank 0 quotients: [ <true, 50, 1>, <true, 50, 1> ]
+Lcm(n_c) = 2
+
+
+N = 588 = [ <2, 2>, <3, 1>, <7, 2> ]
+J_0(42)^new has rank 0 quotients: [ <true, 42, 1> ]
+Lcm(n_c) = 2
+
+
+N = 7203 = [ <3, 1>, <7, 4> ]
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+Lcm(n_c) = 7
+
+J_0(147)^new has rank 0 quotients: [ <true, 147, 1>, <true, 147, 1>, <true, 147,
+1>, <false, 147, 2>, <true, 147, 2> ]
+Lcm(n_c) = 7
+
+
+
+Total time: 5.339 seconds, Total memory usage: 32.09MB
+N = 1125 = [ <3, 2>, <5, 3> ]
+J_0(75)^new has rank 0 quotients: [ <true, 75, 1>, <true, 75, 1>, <true, 75, 1> 
+]
+Lcm(n_c) = 1
+
+J_0(75)^new has rank 0 quotients: [ <true, 75, 1>, <true, 75, 1>, <true, 75, 1> 
+]
+Lcm(n_c) = 3
+
+J_0(75)^new has rank 0 quotients: [ <true, 75, 1>, <true, 75, 1>, <true, 75, 1> 
+]
+Lcm(n_c) = 3
+
+
+> N := 396;
+
+Total time: 5.450 seconds, Total memory usage: 32.09MB

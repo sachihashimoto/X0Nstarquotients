@@ -1,0 +1,128 @@
+440
+Curve over Rational Field defined by
+x[2]*x[4]^2 - x[1]*x[4]*x[5],
+x[1]*x[2]*x[4] - x[1]^2*x[5],
+x[2]*x[4]*x[5] - x[1]*x[5]^2,
+x[2]*x[3]*x[4] - x[1]*x[3]*x[5],
+-x[2]^2*x[4] + x[1]*x[2]*x[5],
+x[1]^3 - 2*x[1]^2*x[2] + x[1]*x[2]^2 + x[1]^2*x[3] + x[1]*x[2]*x[3] - 
+    x[1]^2*x[4] + x[1]*x[2]*x[4] - x[2]^2*x[4] - x[1]*x[4]*x[5],
+x[1]*x[2]*x[4] - x[2]^2*x[4] - x[1]*x[2]*x[5] + x[2]^2*x[5] + x[1]*x[3]*x[5] + 
+    x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[1]*x[5]^2 - x[2]*x[5]^2 - x[4]*x[5]^2,
+-x[1]^2*x[4] + x[1]*x[2]*x[4] - x[2]^2*x[4] - x[1]*x[3]*x[4] + x[1]*x[4]^2 - 
+    x[2]*x[4]^2 + x[1]^2*x[5] - x[1]*x[3]*x[5] + x[4]^2*x[5] + x[1]*x[5]^2,
+x[1]^3 + x[1]*x[2]^2 - x[1]^2*x[3] - x[1]*x[2]*x[3] + x[1]*x[3]^2 + 
+    x[1]*x[2]*x[4] - x[3]^2*x[4] - x[1]*x[4]^2 + x[2]*x[4]^2 - x[1]*x[5]^2,
+-2*x[1]^2*x[4] + x[1]*x[2]*x[4] - x[2]^2*x[4] - x[3]^2*x[4] - x[1]*x[4]^2 + 
+    x[1]^2*x[5] - x[1]*x[2]*x[5] - x[1]*x[5]^2,
+x[1]^2*x[2] + x[2]^3 - x[1]*x[2]*x[3] - x[2]^2*x[3] + x[2]*x[3]^2 + 
+    x[1]*x[2]*x[4] + x[2]^2*x[4] + x[2]*x[4]^2 + x[2]^2*x[5] - x[1]*x[3]*x[5] - 
+    x[2]*x[3]*x[5] + x[2]*x[5]^2 + x[4]*x[5]^2,
+-x[1]^2*x[2] + 2*x[1]*x[2]^2 - x[2]^3 - x[1]*x[2]*x[3] - x[2]^2*x[3] - 
+    x[2]^2*x[4] + x[1]^2*x[5] + x[2]^2*x[5] + x[1]*x[5]^2,
+-x[1]^2*x[2] - x[2]^3 + x[1]*x[2]*x[3] + x[2]^2*x[3] - x[2]*x[3]^2 - x[2]^2*x[4]
+    + x[3]^2*x[5] + x[1]*x[4]*x[5] - x[1]*x[5]^2 + x[2]*x[5]^2,
+x[1]^2*x[3] - 2*x[1]*x[2]*x[3] + x[2]^2*x[3] + x[1]*x[3]^2 + x[2]*x[3]^2 - 
+    x[1]*x[3]*x[4] + x[1]*x[3]*x[5] - x[2]*x[3]*x[5] - x[3]*x[4]*x[5],
+x[1]^2*x[3] + x[2]^2*x[3] - x[1]*x[3]^2 - x[2]*x[3]^2 + x[3]^3 + 
+    2*x[1]*x[3]*x[4] - x[1]*x[3]*x[5] + 2*x[2]*x[3]*x[5] + x[3]*x[4]*x[5]
+g = 5
+r = 2
+3 small points: [ (-1 : -1 : 0 : 1 : 1), (0 : 0 : 0 : 1 : 0), (0 : 0 : 0 : 0 : 
+1) ]
+checking: differences of 2 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 7
+found 2 plane models:
+{
+y^5 + (-11/3*x^2 + 19/9*x - 2/9)*y^4 + (16/3*x^4 - 46/9*x^3 + 58/27*x^2 - 
+44/27*x + 16/27)*y^3 + (-32/9*x^6 + 104/27*x^5 - 203/81*x^4 + 295/81*x^3 - 
+226/81*x^2 + 68/81*x - 8/81)*y^2 + (x^8 - 2/3*x^7 + 1/9*x^6 - 44/27*x^5 + 
+187/81*x^4 - 392/243*x^3 + 232/243*x^2 - 32/81*x + 16/243)*y - 1/9*x^10 - 
+1/27*x^9 + 4/27*x^8 + 77/243*x^7 - 538/729*x^6 + 184/243*x^5 - 400/729*x^4 + 
+176/729*x^3 - 32/729*x^2,
+y^6 + (-9*x + 3)*y^5 + (32*x^2 - 12*x + 4)*y^4 + (-48*x^3 + 8*x^2 - 13*x + 
+1)*y^3 + (33*x^4 + 14*x^3 + 19*x^2 + 2*x + 2)*y^2 + (-9*x^5 - 19*x^4 - 10*x^3 - 
+11*x^2 - 3*x)*y + 6*x^5 + 2*x^4 + 8*x^3 + 2*x^2 + 2*x
+}
+
+trying model #
+y^5 + (-11/3*x^2 + 19/9*x - 2/9)*y^4 + (16/3*x^4 - 46/9*x^3 + 58/27*x^2 - 
+44/27*x + 16/27)*y^3 + (-32/9*x^6 + 104/27*x^5 - 203/81*x^4 + 295/81*x^3 - 
+226/81*x^2 + 68/81*x - 8/81)*y^2 + (x^8 - 2/3*x^7 + 1/9*x^6 - 44/27*x^5 + 
+187/81*x^4 - 392/243*x^3 + 232/243*x^2 - 32/81*x + 16/243)*y - 1/9*x^10 - 
+1/27*x^9 + 4/27*x^8 + 77/243*x^7 - 538/729*x^6 + 184/243*x^5 - 400/729*x^4 + 
+176/729*x^3 - 32/729*x^2p = 2 fails: Runtime error: bad prime.
+p = 3 fails: 
+rational_points(
+    N: 440,
+    X: Curve over Rational Field defined by x[2]*x[4]^2 - x[1]*x[4]...
+)
+coleman_data(
+    Q: y^5 + (-11/3*x^2 + 19/9*x - 2/9)*y^4 + (16/3*x^4 - 46/9*x^3 ...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^5 + (-11/3*x^2 + 19/9*x - 2/9)*y^4 + (16/3*x^4 - 46/9*x^3 ...,
+    p: 3
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: Runtime error: bad prime.
+Time: 112.570
+p = 7 fails: 
+rational_points(
+    N: 440,
+    X: Curve over Rational Field defined by x[2]*x[4]^2 - x[1]*x[4]...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 299, column 20:
+>>                   b[j]:=zeros[k];
+                      ^
+Runtime error in :=: Variable 'b' has not been initialized.
+p = 11 fails: Runtime error: bad prime.
+Time: 241.770
+Time: 1311.930
+found 3 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^24),
+b := [ 1 + O(13^35), 9 + O(13^24), O(13^24), 108 + O(13^24), 540 + O(13^24) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^24),
+b := [ 1 + O(13^35), O(13^48), O(13^48), O(13^48), 271400385187185256385794400 +
+O(13^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 180933590124790170923865121 + O(13^24),
+b := [ 1 + O(13^35), 4 + O(13^24), 40 + O(13^24), 492 + O(13^24), 
+-203550288890388942289347744 + O(13^24) ],
+inf := false>
+] (3 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 0, 0, 0, 486393021258859507087288041575440627898 + O(13^35)
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 324262014172573004724858694383627087453 + O(13^35),
+b := [ 1 + O(13^35), 4 + O(13^35), 40 + O(13^35), 492 + O(13^35), 
+121598255314714876771822010393860158311 + O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 9 + O(13^35), 0, 108 + O(13^35), 540 + O(13^35) ],
+inf := true>
+] (3 pts)
+found all Q-points!

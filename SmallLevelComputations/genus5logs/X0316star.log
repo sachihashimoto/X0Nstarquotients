@@ -1,0 +1,779 @@
+316
+g = 5
+r = 3
+6 small points: [ (-1 : 0 : 1 : 0 : 1), (1 : 0 : 0 : 0 : 0), (-1 : 1 : 0 : 1 : 
+0), (2 : -1 : 1 : -1 : 1), (0 : -1 : 1 : 0 : 0), (0 : 1 : -1 : -1 : 1) ]
+checking: differences of 5 points generate rank 3 subgroup of J_0(N)^*(Q).
+
+
+Magma: Internal error
+
+Please mail this entire run [*** WITH THE DETAILS BELOW ***]
+    to magma-bugs@maths.usyd.edu.au
+
+You can print the entire input by entering:
+%P
+
+Version: 2.28-13
+Machine type: intel64-linux
+Initial seed: 3933767249
+Time to this point: 38727.2
+Memory usage: 532.50MB
+internal error in place create
+316
+Curve over Rational Field defined by
+x[1]*x[2]*x[3] + x[2]*x[3]*x[4] + x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+-x[1]*x[3]*x[4] - x[3]*x[4]^2 - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - x[4]^2*x[5],
+x[1]^2*x[2] + x[1]*x[2]*x[3] + x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[3]*x[4] + 
+    x[1]*x[2]*x[5] - x[1]*x[4]*x[5] - x[1]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]^2 + x[1]^2*x[4] + x[2]*x[3]*x[4] + x[1]*x[4]^2 + x[2]^2*x[5] + 
+    x[1]*x[4]*x[5] + x[3]*x[5]^2 + x[4]*x[5]^2,
+-x[2]^3 + x[2]*x[3]^2 + x[1]*x[2]*x[4] + x[2]^2*x[4] - x[2]*x[3]*x[4] + 
+    x[2]*x[4]^2 - x[2]*x[3]*x[5],
+x[1]*x[3]^2 + x[2]*x[3]^2 + x[3]^3 + x[1]^2*x[4] + x[1]*x[2]*x[4] + 
+    x[2]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5],
+x[2]^2*x[3] - x[1]*x[3]^2 - x[3]^3 - x[2]*x[3]*x[4] - x[2]*x[3]*x[5] + 
+    x[2]*x[4]*x[5] + x[4]^2*x[5],
+-x[2]^2*x[3] - x[2]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[5] + 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[3]*x[5]^2,
+x[1]*x[3]^2 + x[3]^2*x[4] + x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]*x[5] + x[3]*x[4]*x[5] + x[2]*x[5]^2 + x[3]*x[5]^2 + x[4]*x[5]^2,
+x[1]*x[2]^2 - x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] + x[1]*x[3]*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[3]*x[5],
+x[1]^2*x[3] + x[1]*x[3]*x[4] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[1]*x[4]*x[5],
+-x[2]^2*x[4] + x[3]^2*x[4] + x[1]*x[4]^2 + x[2]*x[4]^2 - x[3]*x[4]^2 + x[4]^3 - 
+    x[3]*x[4]*x[5],
+-x[1]*x[2]*x[5] - x[2]*x[3]*x[5] - x[3]^2*x[5] + x[1]*x[4]*x[5] + x[3]*x[4]*x[5]
+    - x[2]*x[5]^2 + x[4]*x[5]^2 + x[5]^3
+g = 5
+r = 3
+6 small points: [ (-1 : 0 : 1 : 0 : 1), (1 : 0 : 0 : 0 : 0), (-1 : 1 : 0 : 1 : 
+0), (2 : -1 : 1 : -1 : 1), (0 : -1 : 1 : 0 : 0), (0 : 1 : -1 : -1 : 1) ]
+checking: differences of 5 points generate rank 3 subgroup of J_0(N)^*(Q).
+
+
+Magma: Internal error
+
+Please mail this entire run [*** WITH THE DETAILS BELOW ***]
+    to magma-bugs@maths.usyd.edu.au
+
+You can print the entire input by entering:
+%P
+
+Version: 2.28-13
+Machine type: intel64-linux
+Initial seed: 3023013839
+Time to this point: 279.51
+Memory usage: 283.62MB
+internal error in place create
+debug> q
+> for N in [364,376,378,396,414,440,444,495,572,630] do
+for> SetLogFile("X0" * Sprint(N) * "star.log");
+for> // N := StringToInteger(N);
+for> print N;
+for> //index := StringToInteger(index);
+for> X := X0NQuotient(N, [p^Valuation(N,p) : p in PrimeDivisors(N)]);
+for> print X;
+for> 
+for> rational_points(N, X);
+for> end for;
+> print N;
+316
+> X := X0NQuotient(N, [p^Valuation(N,p) : p in PrimeDivisors(N)]);
+> print X;
+Curve over Rational Field defined by
+x[1]*x[2]*x[3] + x[2]*x[3]*x[4] + x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+-x[1]*x[3]*x[4] - x[3]*x[4]^2 - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - x[4]^2*x[5],
+x[1]^2*x[2] + x[1]*x[2]*x[3] + x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[3]*x[4] + 
+    x[1]*x[2]*x[5] - x[1]*x[4]*x[5] - x[1]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]^2 + x[1]^2*x[4] + x[2]*x[3]*x[4] + x[1]*x[4]^2 + x[2]^2*x[5] + 
+    x[1]*x[4]*x[5] + x[3]*x[5]^2 + x[4]*x[5]^2,
+-x[2]^3 + x[2]*x[3]^2 + x[1]*x[2]*x[4] + x[2]^2*x[4] - x[2]*x[3]*x[4] + 
+    x[2]*x[4]^2 - x[2]*x[3]*x[5],
+x[1]*x[3]^2 + x[2]*x[3]^2 + x[3]^3 + x[1]^2*x[4] + x[1]*x[2]*x[4] + 
+    x[2]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5],
+x[2]^2*x[3] - x[1]*x[3]^2 - x[3]^3 - x[2]*x[3]*x[4] - x[2]*x[3]*x[5] + 
+    x[2]*x[4]*x[5] + x[4]^2*x[5],
+-x[2]^2*x[3] - x[2]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[5] + 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[3]*x[5]^2,
+x[1]*x[3]^2 + x[3]^2*x[4] + x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]*x[5] + x[3]*x[4]*x[5] + x[2]*x[5]^2 + x[3]*x[5]^2 + x[4]*x[5]^2,
+x[1]*x[2]^2 - x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] + x[1]*x[3]*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[3]*x[5],
+x[1]^2*x[3] + x[1]*x[3]*x[4] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[1]*x[4]*x[5],
+-x[2]^2*x[4] + x[3]^2*x[4] + x[1]*x[4]^2 + x[2]*x[4]^2 - x[3]*x[4]^2 + x[4]^3 - 
+    x[3]*x[4]*x[5],
+-x[1]*x[2]*x[5] - x[2]*x[3]*x[5] - x[3]^2*x[5] + x[1]*x[4]*x[5] + x[3]*x[4]*x[5]
+    - x[2]*x[5]^2 + x[4]*x[5]^2 + x[5]^3
+>     J0Nstar := J0wplusminus([p^Valuation(N,p) : p in PrimeDivisors(N)], [Int\
+egers()|]);
+>     g := Dimension(J0Nstar);
+>     printf "g = %o\n", g;
+g = 5
+>     r := AnalyticRanks(J0Nstar);
+>     printf "r = %o\n", r;
+r = 3
+>     if r ge g then
+if>         error "Chabauty condition not satisfied!";
+if>     end if;
+>         pts := PointSearch(X, 100);
+>         printf "checking: differences of %o points generate rank %o subgroup\
+ of J_0(N)^*(Q).\n", #pts-1, r;
+checking: differences of 5 points generate rank 3 subgroup of J_0(N)^*(Q).
+>         if not finite_index_subgroup(X, pts, r) then 
+if>             error "differences of small rat pts do not generate a finite i\
+ndex subgroup of J(Q).";
+if>         end if;
+
+
+Magma: Internal error
+
+Please mail this entire run [*** WITH THE DETAILS BELOW ***]
+    to magma-bugs@maths.usyd.edu.au
+
+You can print the entire input by entering:
+%P
+
+Version: 2.28-13
+Machine type: intel64-linux
+Initial seed: 4053778578
+Time to this point: 13.84
+Memory usage: 65.12MB
+internal error in place create
+debug> %P
+debug> q
+> %P
+load "QuadraticPoints/models_and_maps.m";
+load "J0wplusminus.m";
+load "gonal_maps.m";
+load "Coleman/coleman.m";
+load "modelsX0Nstar.m";
+SetDebugOnError(true);
+function reduce(P, Xp)
+    return Divisor(Xp!ChangeUniverse(Eltseq(P), BaseField(Xp)));
+end function;
+function finite_index_subgroup(X, pts, r)
+    bp := pts[1];
+    pts := pts[2..#pts];
+    if #pts lt r then 
+        error "#pts-1 < r\n";
+    end if;
+    for p in PrimesUpTo(50) do 
+        try
+            Xp := ChangeRing(X, GF(p));
+            PicXp, phi, psi := ClassGroup(Xp);
+            JFp := TorsionSubgroup(PicXp);
+            divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+            mat := Matrix(Integers(), #divsp, #Generators(JFp), [Eltseq(JFp ! D)
+: D in divsp]);
+            for ell in PrimesUpTo(40) do
+                if Rank(ChangeRing(mat, GF(ell))) eq r then
+                    printf "finite index subgroup certified by: p = %o: ell = 
+%o\n", p, ell;
+                    return true;
+                end if;
+            end for;
+        catch e;
+            //print e;
+        end try;
+    end for;
+    return false;
+end function;
+procedure rational_points(N , X )
+    // rank of X0Nw
+    J0Nstar := J0wplusminus([p^Valuation(N,p) : p in PrimeDivisors(N)], 
+[Integers()|]);
+    g := Dimension(J0Nstar);
+    printf "g = %o\n", g;
+    r := AnalyticRanks(J0Nstar);
+    printf "r = %o\n", r;
+    if r ge g then
+        error "Chabauty condition not satisfied!";
+    end if;
+    if IsHyperelliptic(X) then
+        pts := Points(SimplifiedModel(X) : Bound := 100);
+        printf "checking: differences of %o points generate rank %o subgroup of 
+J_0(N)^*(Q).\n", #pts-1, r;
+        if not finite_index_subgroup(SimplifiedModel(X), pts, r) then 
+            error "differences of small rat pts do not generate a finite index 
+subgroup of J(Q).";
+        end if;
+    else
+        pts := PointSearch(X, 100);
+        printf "checking: differences of %o points generate rank %o subgroup of 
+J_0(N)^*(Q).\n", #pts-1, r;
+        if not finite_index_subgroup(X, pts, r) then 
+            error "differences of small rat pts do not generate a finite index 
+subgroup of J(Q).";
+        end if;
+    end if;
+    printf "%o small points: %o\n", #pts, pts;
+    // find a plane model
+    try
+        Qs := {};
+        denoms := [];
+        mindegree := 100;
+        for i -> bp in pts do
+            //model1, m := ProjectionFromNonsingularPoint(X, bp);
+            //plane_model := ProjectionFromNonsingularPoint(model1, m(pts[i lt 
+#pts select i + 1 else 1]));
+            bp2 := bp;
+            plane_model := X;
+            while Dimension(AmbientSpace(plane_model)) gt 2 do
+                plane_model, quot := ProjectionFromNonsingularPoint(plane_model\
+, bp2);
+                bp2 := PointSearch(plane_model, 100)[1];
+            end while;
+            image_curve_non_monic_eq_xy := Evaluate(DefiningEquation(plane_mode\
+l), [x, y, 1]);
+            image_curve_non_monic_eq_xy := image_curve_non_monic_eq_xy / 
+LeadingCoefficient(LeadingCoefficient(image_curve_non_monic_eq_xy));
+            image_curve_non_monic_eq_xy_lc := LeadingCoefficient(image_curve_no\
+n_monic_eq_xy);
+            Q := Numerator(Evaluate(image_curve_non_monic_eq_xy, y / 
+image_curve_non_monic_eq_xy_lc));
+            Include(~Qs, Q);
+            Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j in 
+[0..Degree(Qx)]]) : Qx in Coefficients(Q)]));
+            mindegree := Min(mindegree, Degree(Q));
+        end for;
+        //print Qs, denoms;
+    catch e 
+        print e;
+    end try;
+    printf "found %o plane models:\n%o\n", #Qs, Qs;
+    for Q in Qs do
+        printf "\ntrying model #\n%o", Q;
+        // Chabauty
+        for p in PrimesInInterval(4, 20) do
+            try 
+                time data := coleman_data(Q, p, 20);
+                time L,v := effective_chabauty(data : bound := 1000, e := 40);
+                printf "found %o residue disks.\n", #L;
+                /*QXYZ<X,Y,Z> := PolynomialRing(Rationals(), 3);
+                mQ := &+[&+[Coefficient(Qx, j) * X^j : j in [0..Degree(Qx)]] * 
+Y^(i-1) : i -> Qx in Coefficients(Q)];
+                mQ := Homogenization(mQ, Z);
+                rpts := RationalPoints(Curve(ProjectiveSpace(QXYZ), mQ) : Bound 
+:= 1000);*/
+                rpts := Q_points(data, 1000);
+                printf "L = %o (%o pts)\nratpts = %o (%o pts)\n", L, #L, rpts, 
+#rpts;
+                if #L eq #rpts then
+                    printf "found all Q-points!\n";
+                    return;
+                else
+                    printf "have to exclude %o residue discs.\n", #L - #rpts;
+                end if;
+            catch e 
+                printf "p = %o fails: %o.\n", p, e;
+            end try;    
+        end for;
+    //    break;
+    end for;
+end procedure;
+N := 316;
+SetLogFile("X0" * Sprint(N) * "star.log");
+print N;
+X := X0NQuotient(N, [p^Valuation(N,p) : p in PrimeDivisors(N)]);
+print X;
+    J0Nstar := J0wplusminus([p^Valuation(N,p) : p in PrimeDivisors(N)], 
+[Integers()|]);
+    g := Dimension(J0Nstar);
+    printf "g = %o\n", g;
+    r := AnalyticRanks(J0Nstar);
+    printf "r = %o\n", r;
+    if r ge g then
+        error "Chabauty condition not satisfied!";
+    end if;
+        pts := PointSearch(X, 100);
+        printf "checking: differences of %o points generate rank %o subgroup of 
+J_0(N)^*(Q).\n", #pts-1, r;
+        if not finite_index_subgroup(X, pts, r) then 
+            error "differences of small rat pts do not generate a finite index 
+subgroup of J(Q).";
+        end if;
+> quit;
+
+Total time: 13.839 seconds, Total memory usage: 65.12MB
+> X := X0NQuotient(N, [p^Valuation(N,p) : p in PrimeDivisors(N)]);
+> X;
+Curve over Rational Field defined by
+x[1]*x[2]*x[3] + x[2]*x[3]*x[4] + x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+-x[1]*x[3]*x[4] - x[3]*x[4]^2 - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - x[4]^2*x[5],
+x[1]^2*x[2] + x[1]*x[2]*x[3] + x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[3]*x[4] + 
+    x[1]*x[2]*x[5] - x[1]*x[4]*x[5] - x[1]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]^2 + x[1]^2*x[4] + x[2]*x[3]*x[4] + x[1]*x[4]^2 + x[2]^2*x[5] + 
+    x[1]*x[4]*x[5] + x[3]*x[5]^2 + x[4]*x[5]^2,
+-x[2]^3 + x[2]*x[3]^2 + x[1]*x[2]*x[4] + x[2]^2*x[4] - x[2]*x[3]*x[4] + 
+    x[2]*x[4]^2 - x[2]*x[3]*x[5],
+x[1]*x[3]^2 + x[2]*x[3]^2 + x[3]^3 + x[1]^2*x[4] + x[1]*x[2]*x[4] + 
+    x[2]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5],
+x[2]^2*x[3] - x[1]*x[3]^2 - x[3]^3 - x[2]*x[3]*x[4] - x[2]*x[3]*x[5] + 
+    x[2]*x[4]*x[5] + x[4]^2*x[5],
+-x[2]^2*x[3] - x[2]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[5] + 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[3]*x[5]^2,
+x[1]*x[3]^2 + x[3]^2*x[4] + x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]*x[5] + x[3]*x[4]*x[5] + x[2]*x[5]^2 + x[3]*x[5]^2 + x[4]*x[5]^2,
+x[1]*x[2]^2 - x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] + x[1]*x[3]*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[3]*x[5],
+x[1]^2*x[3] + x[1]*x[3]*x[4] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[1]*x[4]*x[5],
+-x[2]^2*x[4] + x[3]^2*x[4] + x[1]*x[4]^2 + x[2]*x[4]^2 - x[3]*x[4]^2 + x[4]^3 - 
+    x[3]*x[4]*x[5],
+-x[1]*x[2]*x[5] - x[2]*x[3]*x[5] - x[3]^2*x[5] + x[1]*x[4]*x[5] + x[3]*x[4]*x[5]
+    - x[2]*x[5]^2 + x[4]*x[5]^2 + x[5]^3
+> print N;
+316
+>         pts := PointSearch(X, 100);
+>     bp := pts[1];
+>     pts := pts[2..#pts];
+>     J0Nstar := J0wplusminus([p^Valuation(N,p) : p in PrimeDivisors(N)], [Int\
+egers()|]);
+>     g := Dimension(J0Nstar);
+>     printf "g = %o\n", g;
+g = 5
+>     r := AnalyticRanks(J0Nstar);
+> r;
+3
+> p := 5;
+>             Xp := ChangeRing(X, GF(p));
+> 
+>             PicXp, phi, psi := ClassGroup(Xp);
+>             JFp := TorsionSubgroup(PicXp);
+>             divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+
+>>             divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+                             ^
+User error: Identifier 'reduce' has not been declared or assigned
+> 
+> function reduce(P, Xp)
+function>     return Divisor(Xp!ChangeUniverse(Eltseq(P), BaseField(Xp)));
+function> end function;
+>             divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+>             mat := Matrix(Integers(), #divsp, #Generators(JFp), [Eltseq(JFp \
+! D) : D in divsp]);
+>             for ell in PrimesUpTo(40) do
+for>                 if Rank(ChangeRing(mat, GF(ell))) eq r then
+for|if>                     printf "finite index subgroup certified by: p = %o\
+: ell = %o\n", p, ell;
+for|if>                     return true;
+for|if>                 end if;
+for>             end for;
+
+>>                     return true;
+                       ^
+User error: A 'return' can only be used inside a procedure or function
+>             for ell in PrimesUpTo(40) do
+for>                 if Rank(ChangeRing(mat, GF(ell))) eq r then
+for|if>                     printf "finite index subgroup certified by: p = %o\
+: ell = %o\n", p, ell;
+for|if>                     print true;
+for|if>                 end if;
+for>             end for;
+> p := 7;
+>             Xp := ChangeRing(X, GF(p));
+>             PicXp, phi, psi := ClassGroup(Xp);
+>             JFp := TorsionSubgroup(PicXp);
+>             divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+>             mat := Matrix(Integers(), #divsp, #Generators(JFp), [Eltseq(JFp \
+! D) : D in divsp]);
+>             for ell in PrimesUpTo(40) do
+for>                 if Rank(ChangeRing(mat, GF(ell))) eq r then
+for|if>                     printf "finite index subgroup certified by: p = %o\
+: ell = %o\n", p, ell;
+for|if>                     print true;
+for|if>                 end if;
+for>             end for;
+> p := 11;
+>             Xp := ChangeRing(X, GF(p));
+>             PicXp, phi, psi := ClassGroup(Xp);
+>             JFp := TorsionSubgroup(PicXp);
+>             divsp := [psi(reduce(P,Xp) - reduce(bp,Xp)) : P in pts];
+>             mat := Matrix(Integers(), #divsp, #Generators(JFp), [Eltseq(JFp \
+! D) : D in divsp]);
+>             for ell in PrimesUpTo(40) do
+for>                 if Rank(ChangeRing(mat, GF(ell))) eq r then
+for|if>                     printf "finite index subgroup certified by: p = %o\
+: ell = %o\n", p, ell;
+for|if>                     print true;
+for|if>                 end if;
+for>             end for;
+finite index subgroup certified by: p = 11: ell = 3
+true
+finite index subgroup certified by: p = 11: ell = 5
+true
+finite index subgroup certified by: p = 11: ell = 7
+true
+finite index subgroup certified by: p = 11: ell = 11
+true
+finite index subgroup certified by: p = 11: ell = 13
+true
+finite index subgroup certified by: p = 11: ell = 17
+true
+finite index subgroup certified by: p = 11: ell = 19
+true
+finite index subgroup certified by: p = 11: ell = 23
+true
+finite index subgroup certified by: p = 11: ell = 29
+true
+finite index subgroup certified by: p = 11: ell = 31
+true
+finite index subgroup certified by: p = 11: ell = 37
+true
+> quit;
+
+Total time: 18.460 seconds, Total memory usage: 65.12MB
+316
+Curve over Rational Field defined by
+x[1]*x[2]*x[3] + x[2]*x[3]*x[4] + x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+-x[1]*x[3]*x[4] - x[3]*x[4]^2 - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - x[4]^2*x[5],
+x[1]^2*x[2] + x[1]*x[2]*x[3] + x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[3]*x[4] + 
+    x[1]*x[2]*x[5] - x[1]*x[4]*x[5] - x[1]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]^2 + x[1]^2*x[4] + x[2]*x[3]*x[4] + x[1]*x[4]^2 + x[2]^2*x[5] + 
+    x[1]*x[4]*x[5] + x[3]*x[5]^2 + x[4]*x[5]^2,
+-x[2]^3 + x[2]*x[3]^2 + x[1]*x[2]*x[4] + x[2]^2*x[4] - x[2]*x[3]*x[4] + 
+    x[2]*x[4]^2 - x[2]*x[3]*x[5],
+x[1]*x[3]^2 + x[2]*x[3]^2 + x[3]^3 + x[1]^2*x[4] + x[1]*x[2]*x[4] + 
+    x[2]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5],
+x[2]^2*x[3] - x[1]*x[3]^2 - x[3]^3 - x[2]*x[3]*x[4] - x[2]*x[3]*x[5] + 
+    x[2]*x[4]*x[5] + x[4]^2*x[5],
+-x[2]^2*x[3] - x[2]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[5] + 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[3]*x[5]^2,
+x[1]*x[3]^2 + x[3]^2*x[4] + x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]*x[5] + x[3]*x[4]*x[5] + x[2]*x[5]^2 + x[3]*x[5]^2 + x[4]*x[5]^2,
+x[1]*x[2]^2 - x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] + x[1]*x[3]*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[3]*x[5],
+x[1]^2*x[3] + x[1]*x[3]*x[4] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[1]*x[4]*x[5],
+-x[2]^2*x[4] + x[3]^2*x[4] + x[1]*x[4]^2 + x[2]*x[4]^2 - x[3]*x[4]^2 + x[4]^3 - 
+    x[3]*x[4]*x[5],
+-x[1]*x[2]*x[5] - x[2]*x[3]*x[5] - x[3]^2*x[5] + x[1]*x[4]*x[5] + x[3]*x[4]*x[5]
+    - x[2]*x[5]^2 + x[4]*x[5]^2 + x[5]^3
+g = 5
+r = 3
+checking: differences of 5 points generate rank 3 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 11: ell = 3
+true
+finite index subgroup certified by: p = 11: ell = 5
+true
+finite index subgroup certified by: p = 11: ell = 7
+true
+finite index subgroup certified by: p = 11: ell = 11
+true
+finite index subgroup certified by: p = 11: ell = 13
+true
+finite index subgroup certified by: p = 11: ell = 17
+true
+finite index subgroup certified by: p = 11: ell = 19
+true
+finite index subgroup certified by: p = 11: ell = 23
+true
+finite index subgroup certified by: p = 11: ell = 29
+true
+finite index subgroup certified by: p = 11: ell = 31
+true
+finite index subgroup certified by: p = 11: ell = 37
+true
+Runtime error: differences of small rat pts do not generate a finite index 
+subgroup of J(Q).
+debug> quit;
+Unknown command "quit;"
+debug> q
+> quit;
+
+Total time: 72.390 seconds, Total memory usage: 65.12MB
+316
+Curve over Rational Field defined by
+x[1]*x[2]*x[3] + x[2]*x[3]*x[4] + x[2]^2*x[5] + x[2]*x[3]*x[5] + x[2]*x[4]*x[5],
+-x[1]*x[3]*x[4] - x[3]*x[4]^2 - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - x[4]^2*x[5],
+x[1]^2*x[2] + x[1]*x[2]*x[3] + x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[3]*x[4] + 
+    x[1]*x[2]*x[5] - x[1]*x[4]*x[5] - x[1]*x[5]^2,
+x[1]*x[2]*x[3] + x[2]^2*x[3] + x[2]*x[3]^2 - x[1]*x[3]*x[4] - x[2]*x[3]*x[4] + 
+    x[2]^2*x[5] + x[2]*x[3]*x[5] - x[1]*x[4]*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]^2 + x[1]^2*x[4] + x[2]*x[3]*x[4] + x[1]*x[4]^2 + x[2]^2*x[5] + 
+    x[1]*x[4]*x[5] + x[3]*x[5]^2 + x[4]*x[5]^2,
+-x[2]^3 + x[2]*x[3]^2 + x[1]*x[2]*x[4] + x[2]^2*x[4] - x[2]*x[3]*x[4] + 
+    x[2]*x[4]^2 - x[2]*x[3]*x[5],
+x[1]*x[3]^2 + x[2]*x[3]^2 + x[3]^3 + x[1]^2*x[4] + x[1]*x[2]*x[4] + 
+    x[2]*x[3]*x[4] + x[1]*x[4]*x[5] + x[2]*x[4]*x[5],
+x[2]^2*x[3] - x[1]*x[3]^2 - x[3]^3 - x[2]*x[3]*x[4] - x[2]*x[3]*x[5] + 
+    x[2]*x[4]*x[5] + x[4]^2*x[5],
+-x[2]^2*x[3] - x[2]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] - x[2]^2*x[5] + 
+    x[2]*x[3]*x[5] + x[3]^2*x[5] - x[2]*x[4]*x[5] - x[3]*x[4]*x[5] - 
+    x[3]*x[5]^2,
+x[1]*x[3]^2 + x[3]^2*x[4] + x[2]*x[3]*x[5] + x[3]^2*x[5] + x[3]*x[4]*x[5],
+x[1]*x[3]*x[5] + x[3]*x[4]*x[5] + x[2]*x[5]^2 + x[3]*x[5]^2 + x[4]*x[5]^2,
+x[1]*x[2]^2 - x[1]*x[3]^2 - x[1]^2*x[4] - x[1]*x[2]*x[4] + x[1]*x[3]*x[4] - 
+    x[1]*x[4]^2 + x[1]*x[3]*x[5],
+x[1]^2*x[3] + x[1]*x[3]*x[4] + x[1]*x[2]*x[5] + x[1]*x[3]*x[5] + x[1]*x[4]*x[5],
+-x[2]^2*x[4] + x[3]^2*x[4] + x[1]*x[4]^2 + x[2]*x[4]^2 - x[3]*x[4]^2 + x[4]^3 - 
+    x[3]*x[4]*x[5],
+-x[1]*x[2]*x[5] - x[2]*x[3]*x[5] - x[3]^2*x[5] + x[1]*x[4]*x[5] + x[3]*x[4]*x[5]
+    - x[2]*x[5]^2 + x[4]*x[5]^2 + x[5]^3
+g = 5
+r = 3
+checking: differences of 5 points generate rank 3 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 11: ell = 3
+6 small points: [ (-1 : 0 : 1 : 0 : 1), (1 : 0 : 0 : 0 : 0), (-1 : 1 : 0 : 1 : 
+0), (2 : -1 : 1 : -1 : 1), (0 : -1 : 1 : 0 : 0), (0 : 1 : -1 : -1 : 1) ]
+found 5 plane models:
+{
+y^5 + (x - 1)*y^4 + (-4*x^2 + 5*x + 3)*y^3 + (-8*x^3 + 20*x^2 - 4*x - 8)*y^2 + 
+(x^5 - 5*x^4 + 18*x^3 - 20*x^2 - 3*x + 9)*y + x^6 - x^5 + x^4 - 10*x^3 + 11*x^2 
++ 3*x - 5,
+y^6 + 3*y^5 + (-2*x^2 + 6*x)*y^4 + (2*x^3 - 5*x^2 + 7*x - 2)*y^3 + (6*x^4 - 
+19*x^3 + 24*x^2 - 16*x + 5)*y^2 + (4*x^5 - 16*x^4 + 27*x^3 - 25*x^2 + 11*x - 
+1)*y + x^6 - 5*x^5 + 10*x^4 - 9*x^3 + x^2 + 4*x - 2,
+y^6 + (-8/5*x - 13/5)*y^5 + (-2/5*x^2 + 42/5*x + 6/5)*y^4 + (-63/40*x^3 + 
+49/8*x^2 - 649/40*x + 51/40)*y^3 + (3/40*x^4 + 49/10*x^3 - 239/20*x^2 + 159/10*x
+- 37/40)*y^2 + (-1/8*x^5 - 17/40*x^4 - 67/20*x^3 + 221/20*x^2 - 277/40*x - 
+9/40)*y + 1/4*x^5 + 21/20*x^4 + 17/10*x^3 - 7/2*x^2 + 9/20*x + 1/20,
+y^6 + (4*x - 4)*y^5 + (16*x^2 - 2*x + 8)*y^4 + (26*x^3 - 14*x^2 + x - 4)*y^3 + 
+(16*x^4 - 28*x^3 + 7*x^2 + 8*x + 1)*y^2 + (4*x^5 - 14*x^4 + 11*x^3 + 3*x^2 - 
+4*x)*y + x^6 - 2*x^5 + x^4 - x^3 + x,
+y^5 + (x^2 + 7*x)*y^4 + (x^4 + 7*x^3 + 11*x^2 - 2*x - 8)*y^3 + (x^6 + 6*x^5 + 
+11*x^4 - 3*x^3 - 32*x^2 - 28*x)*y^2 + (3*x^7 + 13*x^6 + 7*x^5 - 32*x^4 - 38*x^3 
+- 4*x^2 + 8*x + 16)*y + x^8 + 6*x^7 + 10*x^6 + 32*x^3 + 32*x^2
+}
+
+trying model #
+y^5 + (x - 1)*y^4 + (-4*x^2 + 5*x + 3)*y^3 + (-8*x^3 + 20*x^2 - 4*x - 8)*y^2 + 
+(x^5 - 5*x^4 + 18*x^3 - 20*x^2 - 3*x + 9)*y + x^6 - x^5 + x^4 - 10*x^3 + 11*x^2 
++ 3*x - 5p = 5 fails: Runtime error: bad prime.
+Time: 51.570
+Time: 1439.980
+found 8 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^19),
+b := [ 1 + O(7^30), O(7^19), O(7^19), O(7^19), -20 + O(7^20) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^30),
+b := [ 1 + O(7^30), O(7^30), O(7^30), O(7^19), -29 + O(7^19) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -82374568579145*7 + O(7^18),
+b := [ 1 + O(7^30), 192772374787120 + O(7^18), 479472290503476 + O(7^18), 
+307781460000456 + O(7^18), -693223873541658 + O(7^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^19),
+b := [ 1 + O(7^30), 2 + O(7^19), 4 + O(7^19), 8 + O(7^19), 2 + O(7^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^19),
+b := [ 1 + O(7^30), 2 + O(7^19), 4 + O(7^19), 8 + O(7^19), -3799631728457713 + 
+O(7^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 3031461221053592 + O(7^19),
+b := [ 1 + O(7^30), 58265151308117 + O(7^19), 1859839152574239 + O(7^19), 
+-2511675149333876 + O(7^19), -8353023252847911 + O(7^20) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^19),
+b := [ 1 + O(7^30), O(7^19), O(7^30), O(7^30), -3799631728457711 + O(7^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^30),
+b := [ 1 + O(7^30), O(7^19), O(7^30), O(7^30), -542804532636816*7 + O(7^19) ],
+inf := false>
+] (8 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(7^30),
+b := [ 1 + O(7^30), 2 + O(7^30), 4 + O(7^30), 8 + O(7^30), 
+-7513113430230752695954415 + O(7^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^30),
+b := [ 1 + O(7^30), 2 + O(7^30), 4 + O(7^30), 8 + O(7^30), 2 + O(7^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^30),
+b := [ 1 + O(7^30), 0, 0, 0, -7513113430230752695954413 + O(7^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^30),
+b := [ 1 + O(7^30), 0, 0, 0, -7513113430230752695954416*7 + O(7^31) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^30), 0, 0, 0, -20 + O(7^30) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^30), 0, 0, 0, -29 + O(7^30) ],
+inf := true>
+] (6 pts)
+have to exclude 2 residue discs.
+Time: 83.490
+p = 11 fails: 
+rational_points(
+    N: 316,
+    X: Curve over Rational Field defined by x[1]*x[2]*x[3] + x[2]*x...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+Time: 99.710
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 145.950
+Time: 4388.530
+found 8 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^8),
+b := [ 1 + O(17^30), O(17^8), O(17^8), O(17^8), -20 + O(17^8) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^30),
+b := [ 1 + O(17^30), O(17^24), O(17^16), O(17^8), -29 + O(17^8) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^8),
+b := [ 1 + O(17^30), 2 + O(17^8), 4 + O(17^8), 8 + O(17^8), 2 + O(17^8) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(17^8),
+b := [ 1 + O(17^30), 2 + O(17^8), 4 + O(17^8), 8 + O(17^8), -2325252479 + 
+O(17^8) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -203178008 + O(17^8),
+b := [ 1 + O(17^30), 3368919234 + O(17^8), 1303234554 + O(17^8), 1023710612 + 
+O(17^8), -2961979730 + O(17^8) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2457670274 + O(17^8),
+b := [ 1 + O(17^30), 1065827904 + O(17^8), -3412976524 + O(17^8), 1873103929 + 
+O(17^8), -569790116 + O(17^8) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(17^8),
+b := [ 1 + O(17^30), O(17^8), O(17^16), O(17^24), -2325252477 + O(17^8) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(17^16),
+b := [ 1 + O(17^30), O(17^8), O(17^16), O(17^24), -2325252478 + O(17^8) ],
+inf := false>
+] (8 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(17^30),
+b := [ 1 + O(17^30), 2 + O(17^30), 4 + O(17^30), 8 + O(17^30), 
+-2731155241938255185518000342930739615 + O(17^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^30),
+b := [ 1 + O(17^30), 2 + O(17^30), 4 + O(17^30), 8 + O(17^30), 2 + O(17^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(17^30),
+b := [ 1 + O(17^30), 0, 0, 0, -2731155241938255185518000342930739613 + O(17^30) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(17^30),
+b := [ 1 + O(17^30), 0, 0, 0, -2731155241938255185518000342930739614 + O(17^30) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^30), 0, 0, 0, -20 + O(17^30) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^30), 0, 0, 0, -29 + O(17^30) ],
+inf := true>
+] (6 pts)
+have to exclude 2 residue discs.
+Time: 174.590
+Time: 3144.550
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^6),
+b := [ 1 + O(19^30), O(19^6), O(19^6), O(19^6), -20 + O(19^6) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^24),
+b := [ 1 + O(19^30), O(19^18), O(19^12), O(19^6), -29 + O(19^6) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(19^6),
+b := [ 1 + O(19^30), 2 + O(19^6), 4 + O(19^6), 8 + O(19^6), -15681959 + O(19^6) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(19^6),
+b := [ 1 + O(19^30), 2 + O(19^6), 4 + O(19^6), 8 + O(19^6), 2 + O(19^6) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^6),
+b := [ 1 + O(19^30), O(19^6), O(19^12), O(19^18), -15681957 + O(19^6) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^12),
+b := [ 1 + O(19^30), O(19^6), O(19^12), O(19^18), -15681958 + O(19^6) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3 + O(19^30),
+b := [ 1 + O(19^30), 2 + O(19^30), 4 + O(19^30), 8 + O(19^30), 
+-76822205965731738348503173135311097799 + O(19^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(19^30),
+b := [ 1 + O(19^30), 2 + O(19^30), 4 + O(19^30), 8 + O(19^30), 2 + O(19^30) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^30),
+b := [ 1 + O(19^30), 0, 0, 0, -76822205965731738348503173135311097797 + O(19^30)
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^30),
+b := [ 1 + O(19^30), 0, 0, 0, -76822205965731738348503173135311097798 + O(19^30)
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^30), 0, 0, 0, -20 + O(19^30) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^30), 0, 0, 0, -29 + O(19^30) ],
+inf := true>
+] (6 pts)
+found all Q-points!
+> quit;
+
+Total time: 11004.459 seconds, Total memory usage: 540.19MB

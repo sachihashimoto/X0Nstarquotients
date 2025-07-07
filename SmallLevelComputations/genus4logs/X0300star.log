@@ -1,0 +1,134 @@
+300
+g = 4
+r = 0
+3 small points: [ (-1 : 1 : 0 : 1), (0 : 0 : 0 : 1), (0 : 0 : -1 : 1) ]
+checking: differences of 2 points generate rank 0 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 2
+found 3 plane models:
+[
+y^5 + (6*x - 12)*y^4 + (11*x^2 - 49*x + 25)*y^3 + (7*x^3 - 71*x^2 + 105*x - 
+30)*y^2 + (-32*x^3 + 129*x^2 - 85*x + 16)*y - x^5 + 5*x^4 + 43*x^3 - 55*x^2 + 
+22*x - 3,
+y^5 + (-4*x + 4)*y^4 + (-2*x^2 + 7*x)*y^3 + (3*x^3 + 5*x^2 - 5*x - 8)*y^2 + 
+(-x^3 - 7*x^2 - 6*x + 4)*y - 3*x^4 - 2*x^3 + 2*x^2,
+y^5 - 10/9*x*y^4 + (-4/9*x^2 + 5/9*x - 2/3)*y^3 + (8/9*x^3 + 1/9*x^2 - 
+14/9*x)*y^2 + (-2/3*x^4 + 2/3*x^3 - 4/9*x^2 + 1/3*x + 1/9)*y + 2/3*x^4 - 2/9*x^3
+- 1/9*x^2
+]
+
+trying model #1:
+y^5 + (6*x - 12)*y^4 + (11*x^2 - 49*x + 25)*y^3 + (7*x^3 - 71*x^2 + 105*x - 
+30)*y^2 + (-32*x^3 + 129*x^2 - 85*x + 16)*y - x^5 + 5*x^4 + 43*x^3 - 55*x^2 + 
+22*x - 3
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+Time: 75.400
+p = 11 fails: 
+rational_points(
+    N: 300,
+    X: Curve over Rational Field defined by x[1]^3 - x[1]^2*x[2] - ...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+vanishing_differentials(
+    points: [ rec<recformat<x, b, inf, xt, bt, index> | ...>, rec<recfor...,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+coleman_integrals_on_basis(
+    P1: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    P2: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/singleintegrals.m", line 1973, column 3:
+>>   assert Nround ge NIP1P2;                          // Check that rounding 
+     ^
+Runtime error in assert: Assertion failed.
+p = 13 fails: Runtime error: bad prime.
+p = 17 fails: Runtime error: bad prime.
+p = 19 fails: Runtime error: bad prime.
+
+trying model #2:
+y^5 + (-4*x + 4)*y^4 + (-2*x^2 + 7*x)*y^3 + (3*x^3 + 5*x^2 - 5*x - 8)*y^2 + 
+(-x^3 - 7*x^2 - 6*x + 4)*y - 3*x^4 - 2*x^3 + 2*x^2
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+p = 13 fails: Runtime error: bad prime.
+Time: 127.100
+p = 17 fails: Runtime error: something is wrong, number of approximate roots is 
+different from 1.
+Time: 143.830
+p = 19 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+
+trying model #3:
+y^5 - 10/9*x*y^4 + (-4/9*x^2 + 5/9*x - 2/3)*y^3 + (8/9*x^3 + 1/9*x^2 - 
+14/9*x)*y^2 + (-2/3*x^4 + 2/3*x^3 - 4/9*x^2 + 1/3*x + 1/9)*y + 2/3*x^4 - 2/9*x^3
+- 1/9*x^2
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: 
+rational_points(
+    N: 300,
+    X: Curve over Rational Field defined by x[1]^3 - x[1]^2*x[2] - ...
+)
+coleman_data(
+    Q: y^5 - 10/9*x*y^4 + (-4/9*x^2 + 5/9*x - 2/3)*y^3 + (8/9*x^3 +...,
+    p: 3,
+    N: 35
+)
+genus(
+    Q: y^5 - 10/9*x*y^4 + (-4/9*x^2 + 5/9*x - 2/3)*y^3 + (8/9*x^3 +...,
+    p: 3
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 5 fails: Runtime error: bad prime.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+Time: 99.150
+Time: 4337.080
+found 3 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^25),
+b := [ 1 + O(13^35), O(13^25), O(13^35), O(13^35), -3024175720657207142584603038
++ O(13^25) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^25),
+b := [ 1 + O(13^35), O(13^35), O(13^35), O(13^35), 2016117147104804761723067477 
++ O(13^25) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(13^25),
+b := [ 1 + O(13^35), 9 + O(13^25), 81 + O(13^25), 729 + O(13^25), 16038 + 
+O(13^25) ],
+inf := false>
+] (3 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 0, 0, 0, 277938869290776861192736023757394645381 + O(13^35)
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(13^35),
+b := [ 1 + O(13^35), 9 + O(13^35), 81 + O(13^35), 729 + O(13^35), 16038 + 
+O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 0, 0, 0, -416908303936165291789104035636091969894 + 
+O(13^35) ],
+inf := true>
+] (3 pts)
+found all Q-points!

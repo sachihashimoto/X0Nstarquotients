@@ -1,0 +1,154 @@
+240
+Curve over Rational Field defined by
+x^4 - 2*x^3*y + 2*x^3*z + 2*x^2*y^2 - 4*x^2*y*z + 2*x^2*z^2 - x*y^3 + 3*x*y^2*z - 3*x*y*z^2 + x*z^3 - y^2*z^2
+g = 3
+r = 1
+6 small points: [ (1 : 1 : 1), (0 : 0 : 1), (-1 : 0 : 1), (-1 : 1 : 1), (1 : 1 : 0), (0 : 1 : 0) ]
+checking: differences of 5 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 6 plane models:
+[
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3,
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3,
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3,
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3,
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3,
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3
+]
+
+trying model #1:
+y^3 + (-2*x^2 - 3*x + 1)*y^2 + (2*x^4 + 4*x^3 + 3*x^2)*y - x^6 - 2*x^5 - 2*x^4 - x^3
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 4.440
+Time: 522.410
+found 10 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^24),
+b := [ 1 + O(7^35), -21326678678738024027 + O(7^24), -21326678678738024028 + O(7^24) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^24),
+b := [ 1 + O(7^35), 21326678678738024028 + O(7^24), 21326678678738024027 + O(7^24) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^24),
+b := [ 1 + O(7^35), 1 + O(7^24), 1 + O(7^24) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^23),
+b := [ 1 + O(7^35), -1 + O(7^23), -3 + O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^35),
+b := [ 1 + O(7^35), O(7^35), O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 21326678678738024027 + O(7^24),
+b := [ 1 + O(7^35), O(7^24), O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^23),
+b := [ 1 + O(7^35), O(7^23), O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), -1 + O(7^23), O(7^23) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -21326678678738024028 + O(7^24),
+b := [ 1 + O(7^35), O(7^24), O(7^24) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^24),
+b := [ 1 + O(7^35), 1 + O(7^24), 2 + O(7^24) ],
+inf := false>
+] (10 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(7^35),
+b := [ 1 + O(7^35), 1 + O(7^35), 2 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), -1 + O(7^35), -3 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^35),
+b := [ 1 + O(7^35), -1 + O(7^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 1 + O(7^35), 1 + O(7^35) ],
+inf := true>
+] (6 pts)
+have to exclude 4 residue discs.
+Time: 7.240
+Time: 498.000
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^18),
+b := [ 1 + O(11^35), 1 + O(11^18), 1 + O(11^18) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^19),
+b := [ 1 + O(11^35), -1 + O(11^19), -3 + O(11^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^35),
+b := [ 1 + O(11^35), O(11^35), O(11^18) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^19),
+b := [ 1 + O(11^35), O(11^19), O(11^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^35),
+b := [ 1 + O(11^35), -1 + O(11^19), O(11^19) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^18),
+b := [ 1 + O(11^35), 1 + O(11^18), 2 + O(11^18) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^35),
+b := [ 1 + O(11^35), 1 + O(11^35), 2 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), -1 + O(11^35), -3 + O(11^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^35),
+b := [ 1 + O(11^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(11^35),
+b := [ 1 + O(11^35), -1 + O(11^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 1 + O(11^35), 1 + O(11^35) ],
+inf := true>
+] (6 pts)
+found all Q-points!
+> quit;
+
+Total time: 1047.089 seconds, Total memory usage: 315.12MB

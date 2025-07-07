@@ -1,0 +1,72 @@
+g = 5
+r = 1
+3 small points: [ (0 : 0 : 0 : 1 : 0), (0 : 0 : 0 : 0 : 1), (1 : 1 : 1 : 0 : 1) 
+]
+checking: differences of 2 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 2
+found 3 plane models:
+[
+y^5 + (-4*x^2 - 13*x + 2)*y^4 + (6*x^4 + 46*x^3 + 56*x^2 - 20*x + 8)*y^3 + 
+(-4*x^6 - 61*x^5 - 160*x^4 - 57*x^3 + 62*x^2 - 76*x + 8)*y^2 + (x^8 + 44*x^7 + 
+183*x^6 + 164*x^5 - 139*x^4 - 16*x^3 + 216*x^2 - 64*x + 16)*y + x^10 - 10*x^9 - 
+85*x^8 - 153*x^7 + 32*x^6 + 164*x^5 - 144*x^4 - 112*x^3 + 128*x^2 - 64*x,
+y^6 + y^5 + (-2*x^2 + 2*x + 1)*y^4 + (2*x^2 + 2*x)*y^3 + (x^4 + 2*x^3 + 3*x^2 + 
+2*x)*y^2 + (x^4 + 2*x^3 + 2*x^2)*y + x^4 + 2*x^3 + x^2,
+y^5 + (-4*x^2 - 7*x)*y^4 + (8*x^4 + 29*x^3 + 57/2*x^2 + 11/2*x + 3/2)*y^3 + 
+(-9*x^6 - 103/2*x^5 - 417/4*x^4 - 701/8*x^3 - 197/8*x^2 + 15/4*x + 9/2)*y^2 + 
+(6*x^8 + 47*x^7 + 289/2*x^6 + 871/4*x^5 + 623/4*x^4 + 215/8*x^3 - 387/16*x^2 - 
+27/4*x + 27/8)*y - 2*x^10 - 20*x^9 - 83*x^8 - 365/2*x^7 - 1761/8*x^6 - 499/4*x^5
++ 3/4*x^4 + 945/32*x^3 + 27/16*x^2 - 81/16*x
+]
+
+trying model #1:
+y^5 + (-4*x^2 - 13*x + 2)*y^4 + (6*x^4 + 46*x^3 + 56*x^2 - 20*x + 8)*y^3 + 
+(-4*x^6 - 61*x^5 - 160*x^4 - 57*x^3 + 62*x^2 - 76*x + 8)*y^2 + (x^8 + 44*x^7 + 
+183*x^6 + 164*x^5 - 139*x^4 - 16*x^3 + 216*x^2 - 64*x + 16)*y + x^10 - 10*x^9 - 
+85*x^8 - 153*x^7 + 32*x^6 + 164*x^5 - 144*x^4 - 112*x^3 + 128*x^2 - 64*x
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 17.500
+p = 5 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 7 fails: Runtime error: bad prime.
+Time: 56.600
+Time: 451.250
+found 3 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(11^27),
+b := [ 1 + O(11^35), O(11^27), O(11^27), O(11^27), -6554997095749965183530730184
++ O(11^27) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2 + O(11^27),
+b := [ 1 + O(11^35), -12 + O(11^27), -80 + O(11^27), -580 + O(11^27), 
+-4096873184843728239706706364 + O(11^27) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^27),
+b := [ 1 + O(11^35), 3 + O(11^27), 15 + O(11^27), 95 + O(11^27), 
+-521420223525565412326308083*11 + O(11^27) ],
+inf := false>
+] (3 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(11^35), 0, 0, 0, -1405121842403212392530606951676702424 + O(11^35) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(11^35),
+b := [ 1 + O(11^35), 3 + O(11^35), 15 + O(11^35), 95 + O(11^35), 
+-878201151502007745331629344797939016*11 + O(11^36) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2 + O(11^35),
+b := [ 1 + O(11^35), -12 + O(11^35), -80 + O(11^35), -580 + O(11^35), 
+-878201151502007745331629344797939014 + O(11^35) ],
+inf := false>
+] (3 pts)
+found all Q-points!
+
+Total time: 701.250 seconds, Total memory usage: 246.56MB

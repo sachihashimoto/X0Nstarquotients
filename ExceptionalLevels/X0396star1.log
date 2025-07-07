@@ -1,0 +1,116 @@
+6 small points: [ (0 : -1 : 0 : 1 : 0), (0 : 0 : 1 : 0 : 1), (-1 : -1 : -1 : 1 :
+1), (0 : 0 : 0 : 1 : 0), (0 : 0 : 0 : 0 : 1), (-1 : 1 : 1 : 1 : 1) ]
+g = 5
+r = 2
+TODO: differences of 5 points generate rank 2 subgroup of J_0(N)^w(Q).
+p = 5: ell = 2
+
+trying model #1: y^5 + (6*x^2 - 5*x)*y^4 + (13*x^4 - 27*x^3 + 10*x^2 - x)*y^3 + 
+(10*x^6 - 50*x^5 + 43*x^4 - 14*x^3 + 4*x^2)*y^2 + (-32*x^7 + 59*x^6 - 31*x^5 + 
+17*x^4 - 5*x^3)*y + 26*x^8 - 18*x^7 + 13*x^6 - 9*x^5 + 2*x^4
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+p = 5 fails: Runtime error: bad prime.
+Time: 122.650
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 11 fails: Runtime error: bad prime.
+Time: 269.610
+p = 13 fails: 
+rational_points(
+    N: 396
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+local_coord(
+    P: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    prec: 3850,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+mod_p_prec(
+    fy: Kty.1^8 + ((23*13^-1 + O(13^74)) - (16*13^-1 + O(13^74))*t +...
+)
+In file "Coleman/singleintegrals.m", line 807, column 15:
+>>   fymodp:=Fpty!fy;
+                 ^
+Runtime error in '!': Illegal coercion.
+Time: 406.550
+p = 17 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 475.110
+p = 19 fails: 
+rational_points(
+    N: 396
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+Qp_points(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+In file "Coleman/applications.m", line 299, column 20:
+>>                   b[j]:=zeros[k];
+                      ^
+Runtime error in :=: Variable 'b' has not been initialized.
+Time: 601.970
+Time: 12117.960
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(23^5),
+b := [ 1 + O(23^75), -2 + O(23^15), 4 + O(23^15), -8 + O(23^15), -1 + O(23^10) 
+],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(23^5),
+b := [ 1 + O(23^75), O(23^5), O(23^5), -2 + O(23^5), 13 + O(23^5) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(23^5),
+b := [ 1 + O(23^75), O(23^5), O(23^5), -1 + O(23^5), 14 + O(23^10) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(23^5),
+b := [ 1 + O(23^75), O(23^5), O(23^5), -1 + O(23^5), 12 + O(23^5) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(23^10),
+b := [ 1 + O(23^75), O(23^5), 1 + O(23^5), 1 + O(23^10), 12 + O(23^5) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(23^10),
+b := [ 1 + O(23^75), -2 + O(23^5), -4 + O(23^5), -10 + O(23^5), 12 + O(23^5) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(23^75),
+b := [ 1 + O(23^75), -2 + O(23^75), -4 + O(23^75), -10 + O(23^75), 12 + O(23^75)
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(23^75), 0, 0, -1 + O(23^75), 14 + O(23^75) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(23^75), 0, 0, -1 + O(23^75), 12 + O(23^75) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(23^75), 0, 0, -2 + O(23^75), 13 + O(23^75) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(23^75), 0, 1 + O(23^75), 1 + O(23^75), 12 + O(23^75) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(23^75), -2 + O(23^75), 4 + O(23^75), -8 + O(23^75), -1 + O(23^75) 
+],
+inf := true>
+] (6 pts)
+found all Q-points!
+
+Total time: 23833.250 seconds, Total memory usage: 1348.75MB

@@ -1,0 +1,84 @@
+112
+Hyperelliptic Curve defined by y^2 = x^6 - 4*x^5 + 16*x^4 - 40*x^3 + 60*x^2 - 48*x + 16 over Rational Field
+g = 2
+r = 1
+6 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (0 : -4 : 1), (0 : 4 : 1), (1 : -1 : 1), (1 : 1 : 1) @}
+checking: differences of 5 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+
+rational_points(
+N: 112,
+X: X
+)
+In file "X0NstarCCsolver.m", line 87, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+[
+y^2 - x^6 + 4*x^5 - 16*x^4 + 40*x^3 - 60*x^2 + 48*x - 16
+]
+
+trying model #1:
+y^2 - x^6 + 4*x^5 - 16*x^4 + 40*x^3 - 60*x^2 + 48*x - 16
+p = 2 fails: Runtime error: bad prime.
+Time: 0.180
+Time: 6.620
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^31),
+b := [ 1 + O(3^35), -1 + O(3^31) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^31),
+b := [ 1 + O(3^35), 1 + O(3^31) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^31),
+b := [ 1 + O(3^35), -4 + O(3^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^31),
+b := [ 1 + O(3^35), 4 + O(3^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^31),
+b := [ 1 + O(3^35), -1 + O(3^31) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^31),
+b := [ 1 + O(3^35), 1 + O(3^31) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^35),
+b := [ 1 + O(3^35), 1 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(3^35),
+b := [ 1 + O(3^35), -1 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 4 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), -4 + O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 1 + O(3^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), -1 + O(3^35) ],
+inf := true>
+] (6 pts)
+found all Q-points!
+> quit;
+
+Total time: 8.660 seconds, Total memory usage: 32.09MB

@@ -1,0 +1,84 @@
+171
+g = 3
+r = 1
+6 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (0 : -3 : 1), (0 : 3 : 1), (1 : -1 : 1), (1 : 1 : 1) @}
+checking: differences of 5 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 2
+
+rational_points(
+N: 171,
+X: X
+)
+In file "X0NstarCCsolver.m", line 83, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+[
+y^2 - x^8 - 2*x^6 + 8*x^5 - 7*x^4 + 8*x^3 - 10*x^2 + 12*x - 9
+]
+
+trying model #1:
+y^2 - x^8 - 2*x^6 + 8*x^5 - 7*x^4 + 8*x^3 - 10*x^2 + 12*x - 9
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 0.340
+Time: 10.710
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), 3 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), -3 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^31),
+b := [ 1 + O(5^35), -1 + O(5^31) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^31),
+b := [ 1 + O(5^35), 1 + O(5^31) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 3 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -3 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := true>
+] (6 pts)
+found all Q-points!
+> quit;
+
+Total time: 13.339 seconds, Total memory usage: 32.09MB

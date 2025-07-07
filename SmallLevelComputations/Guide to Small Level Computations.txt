@@ -1,0 +1,23 @@
+Because of how we originally did the computations, the files here are sometimes split in two cases: when 4|N and when 4 does not divide N. They compute for all levels N where the genus of X0(N)* is less than or equal to 5, the rational points, Heegner points, and cusps.
+
+Ranks.log
+Computes ranks for minimal levels N, and genus of X0(N)* is less than or equal to 5. Done using ranks.m
+
+The file "minimallevels.m" computes minimal non-exceptional levels less than a certain bound B.
+The file " "minimalglessthan5" lists all levels N with genus of X0(N)* is less than or equal to 5.
+
+The file "genus2models.m" creates models for X0(N)* for minimal levels N and genus is 2. The log file is Genus2Models.log.
+
+The file "genus3models.m" creates models for X0(N)* for minimal levels N and genus is 3. The log file is Genus2Models.log
+
+The file "HeegnerPoints4.log" computes Heegner points on X0(N)* for minimal levels N, where 4 | N, and genus is 2, using "SmallLevelsHeegner4.m". The file "HeegnerPointsRemaining.log" has the remaining small levels, computed using "heegnerptssmall.m"
+
+The log files "X0Nstar.log" contain rational points computations using the models listed here and the X0NstarCCsolver.m. These are in folders corresponding to their genus.
+
+The file genus2.m does several genus 2 computations with the built in Chabauty command in magma, using a Mordell--Weil sieve.
+
+The file genus1.log contains the point counts for the genus 1 curves. This was computed with X0Nstarmodelgenus1.m
+
+The files "X0Nstar.m" and "X0Nstar.log" study exceptional points on small levels.
+
+The files "rank0quotients.m" and "ratpts261.m" correspond to the computations for upper bounds on remaining levels discussed in section 8.1.

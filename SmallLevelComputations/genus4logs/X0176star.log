@@ -1,0 +1,76 @@
+176
+Hyperelliptic Curve defined by y^2 = x^10 - 8*x^8 + 4*x^7 + 24*x^6 - 16*x^5 - 
+    36*x^4 + 32*x^3 + 16*x^2 - 16*x over Rational Field
+g = 4
+r = 1
+checking: differences of 4 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+5 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (0 : 0 : 1), (1 : -1 : 1), (1 : 1 
+: 1) @}
+
+rational_points(
+    N: 176,
+    X: X
+)
+In file "X0NstarCCsolver.m", line 88, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+{
+y^2 - x^10 + 8*x^8 - 4*x^7 - 24*x^6 + 16*x^5 + 36*x^4 - 32*x^3 - 16*x^2 + 16*x
+}
+
+trying model #
+y^2 - x^10 + 8*x^8 - 4*x^7 - 24*x^6 + 16*x^5 + 36*x^4 - 32*x^3 - 16*x^2 + 16*xTime: 0.640
+Time: 30.250
+found 5 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^14),
+b := [ 1 + O(5^20), -1 + O(5^20) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^14),
+b := [ 1 + O(5^20), 1 + O(5^20) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^20),
+b := [ 1 + O(5^20), O(5^14) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^14),
+b := [ 1 + O(5^20), -1 + O(5^14) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^14),
+b := [ 1 + O(5^20), 1 + O(5^14) ],
+inf := false>
+] (5 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^20),
+b := [ 1 + O(5^20), 1 + O(5^20) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^20),
+b := [ 1 + O(5^20), -1 + O(5^20) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^20), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^20), 1 + O(5^20) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^20), -1 + O(5^20) ],
+inf := true>
+] (5 pts)
+found all Q-points!
+> quit;
+
+Total time: 35.399 seconds, Total memory usage: 64.12MB

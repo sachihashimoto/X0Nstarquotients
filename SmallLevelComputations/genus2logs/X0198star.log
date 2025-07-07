@@ -1,0 +1,501 @@
+198
+g = 2
+r = 1
+4 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (0 : -1 : 1), (0 : 1 : 1) @}
+checking: differences of 3 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 2
+
+rational_points(
+N: 198,
+X: X
+)
+In file "X0NstarCCsolver.m", line 83, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+[
+y^2 - x^6 - 4*x^5 + 4*x^4 - 10*x^3 + 4*x^2 - 4*x - 1
+]
+
+trying model #1:
+y^2 - x^6 - 4*x^5 + 4*x^4 - 10*x^3 + 4*x^2 - 4*x - 1
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 0.260
+Time: 6.910
+found 10 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), -1 + O(5^32) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), 1 + O(5^32) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), -1 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^32),
+b := [ 1 + O(5^35), 1 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -8032510391590452844818 + O(5^32),
+b := [ 1 + O(5^35), 8032510391590452844819 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -8032510391590452844818 + O(5^32),
+b := [ 1 + O(5^35), -8032510391590452844819 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^32),
+b := [ 1 + O(5^35), -7923784056956291869051 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(5^32),
+b := [ 1 + O(5^35), 7923784056956291869051 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 8032510391590452844818 + O(5^32),
+b := [ 1 + O(5^35), -8032510391590452844817 + O(5^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 8032510391590452844818 + O(5^32),
+b := [ 1 + O(5^35), 8032510391590452844817 + O(5^32) ],
+inf := false>
+] (10 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := true>
+] (4 pts)
+have to exclude 6 residue discs.
+Time: 0.320
+Time: 97.970
+found 8 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^33),
+b := [ 1 + O(7^35), -1 + O(7^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^33),
+b := [ 1 + O(7^35), 1 + O(7^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^33),
+b := [ 1 + O(7^35), -1 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(7^33),
+b := [ 1 + O(7^35), 1 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 162117302643270321663765685029 + O(7^35),
+b := [ 1 + O(7^35), O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^33),
+b := [ 1 + O(7^35), 2021781384153917979927206829 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(7^33),
+b := [ 1 + O(7^35), -2021781384153917979927206829 + O(7^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -162117302643270321663765685028 + O(7^35),
+b := [ 1 + O(7^35), O(7^33) ],
+inf := false>
+] (8 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 1 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), -1 + O(7^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), 1 + O(7^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(7^35), -1 + O(7^35) ],
+inf := true>
+] (4 pts)
+have to exclude 4 residue discs.
+p = 11 fails: Runtime error: bad prime.
+Time: 0.590
+Time: 129.740
+found 18 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^33),
+b := [ 1 + O(13^35), -1 + O(13^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^33),
+b := [ 1 + O(13^35), 1 + O(13^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^33),
+b := [ 1 + O(13^35), -1 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(13^33),
+b := [ 1 + O(13^35), 1 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -48591863308589295534677981704179465089 + O(13^35),
+b := [ 1 + O(13^35), O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2778717641346349766682485329421928861 + O(13^33),
+b := [ 1 + O(13^35), 2778717641346349766682485329421928860 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2778717641346349766682485329421928861 + O(13^33),
+b := [ 1 + O(13^35), -2778717641346349766682485329421928860 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 486141533542941243432706561152480040 + O(13^33),
+b := [ 1 + O(13^35), 2849717667203770376487882393727007703 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 486141533542941243432706561152480040 + O(13^33),
+b := [ 1 + O(13^35), -2849717667203770376487882393727007703 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1152511917358458400347857905448654435 + O(13^33),
+b := [ 1 + O(13^35), 2375670963198824814843224177486916944 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1152511917358458400347857905448654435 + O(13^33),
+b := [ 1 + O(13^35), -2375670963198824814843224177486916944 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1323235022320240096321313759558886025 + O(13^33),
+b := [ 1 + O(13^35), -2633966326730743342822429356890566169 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1323235022320240096321313759558886025 + O(13^33),
+b := [ 1 + O(13^35), 2633966326730743342822429356890566169 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1811771069073778967292689367105631923 + O(13^33),
+b := [ 1 + O(13^35), -1526262853148237868427206948986455642 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1811771069073778967292689367105631923 + O(13^33),
+b := [ 1 + O(13^35), 1526262853148237868427206948986455642 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2778717641346349766682485329421928861 + O(13^33),
+b := [ 1 + O(13^35), 2778717641346349766682485329421928862 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -2778717641346349766682485329421928861 + O(13^33),
+b := [ 1 + O(13^35), -2778717641346349766682485329421928862 + O(13^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 48591863308589295534677981704179465090 + O(13^35),
+b := [ 1 + O(13^35), O(13^33) ],
+inf := false>
+] (18 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 1 + O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), -1 + O(13^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), 1 + O(13^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(13^35), -1 + O(13^35) ],
+inf := true>
+] (4 pts)
+have to exclude 14 residue discs.
+Time: 0.750
+Time: 146.770
+found 22 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^33),
+b := [ 1 + O(17^35), -1 + O(17^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^33),
+b := [ 1 + O(17^35), 1 + O(17^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^33),
+b := [ 1 + O(17^35), -1 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^33),
+b := [ 1 + O(17^35), 1 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 9311199160736465345057116602581745655512 + O(17^33),
+b := [ 1 + O(17^35), 19980298963306108442517325569501894416572 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 9311199160736465345057116602581745655512 + O(17^33),
+b := [ 1 + O(17^35), -19980298963306108442517325569501894416572 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 18566971326986448902904456796574374128468 + O(17^33),
+b := [ 1 + O(17^35), -11295013557357146903123285247362519593460 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 18566971326986448902904456796574374128468 + O(17^33),
+b := [ 1 + O(17^35), 11295013557357146903123285247362519593460 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 16716927202133397564214096907533764107932 + O(17^33),
+b := [ 1 + O(17^35), 16716927202133397564214096907533764107931 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 16716927202133397564214096907533764107932 + O(17^33),
+b := [ 1 + O(17^35), -16716927202133397564214096907533764107931 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1945488206334478002219095533941831166597 + O(17^33),
+b := [ 1 + O(17^35), -6085284135119340244248958737694753165777 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1945488206334478002219095533941831166597 + O(17^33),
+b := [ 1 + O(17^35), 6085284135119340244248958737694753165777 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -3433668893407075962602877795922430470425078 + O(17^35),
+b := [ 1 + O(17^35), O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 3490384592742332455340807639090511005402437 + O(17^35),
+b := [ 1 + O(17^35), O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -10176089318498752781509113590754013052709 + O(17^33),
+b := [ 1 + O(17^35), -3304458805192572512763280603715735966437 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -10176089318498752781509113590754013052709 + O(17^33),
+b := [ 1 + O(17^35), 3304458805192572512763280603715735966437 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -16716927202133397564214096907533764107932 + O(17^33),
+b := [ 1 + O(17^35), 16716927202133397564214096907533764107933 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -16716927202133397564214096907533764107932 + O(17^33),
+b := [ 1 + O(17^35), -16716927202133397564214096907533764107933 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 12177234600199247259963278615026500643550 + O(17^33),
+b := [ 1 + O(17^35), 1853979129177002722733626615098050039994 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 12177234600199247259963278615026500643550 + O(17^33),
+b := [ 1 + O(17^35), -1853979129177002722733626615098050039994 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -9789741115502023288746242555370563836036 + O(17^33),
+b := [ 1 + O(17^35), -17333887769356939215509383900445849662120 + O(17^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -9789741115502023288746242555370563836036 + O(17^33),
+b := [ 1 + O(17^35), 17333887769356939215509383900445849662120 + O(17^33) ],
+inf := false>
+] (22 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^35), 1 + O(17^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^35), -1 + O(17^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^35), 1 + O(17^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^35), -1 + O(17^35) ],
+inf := true>
+] (4 pts)
+have to exclude 18 residue discs.
+Time: 0.910
+Time: 158.480
+found 30 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^33),
+b := [ 1 + O(19^35), -1 + O(19^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^33),
+b := [ 1 + O(19^35), 1 + O(19^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^33),
+b := [ 1 + O(19^35), -1 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^33),
+b := [ 1 + O(19^35), 1 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 74656951687393244654420580120988390624993 + O(19^33),
+b := [ 1 + O(19^35), -692679533783164909817255451983587556230918 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 74656951687393244654420580120988390624993 + O(19^33),
+b := [ 1 + O(19^35), 692679533783164909817255451983587556230918 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -291193131363559733924816696201812375024681 + O(19^33),
+b := [ 1 + O(19^35), 27617086789525308872023234538410467836404 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -291193131363559733924816696201812375024681 + O(19^33),
+b := [ 1 + O(19^35), -27617086789525308872023234538410467836404 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 212687601917317438040167889491547554951663237 + O(19^35),
+b := [ 1 + O(19^35), O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -50279792583410773905320999187354555164731 + O(19^33),
+b := [ 1 + O(19^35), -61569466608589909648916855999748126670569 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -50279792583410773905320999187354555164731 + O(19^33),
+b := [ 1 + O(19^35), 61569466608589909648916855999748126670569 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -584708559299192447650310963937901227629365 + O(19^33),
+b := [ 1 + O(19^35), 533954981823342779781959691253527775508933 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -584708559299192447650310963937901227629365 + O(19^33),
+b := [ 1 + O(19^35), -533954981823342779781959691253527775508933 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -134360518738759850823345433285285556705496 + O(19^33),
+b := [ 1 + O(19^35), 555352768264082024781758008344956380601095 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -134360518738759850823345433285285556705496 + O(19^33),
+b := [ 1 + O(19^35), -555352768264082024781758008344956380601095 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -772293521905526564648490010743848462920323 + O(19^33),
+b := [ 1 + O(19^35), -646397356369272501313137457683572018663912 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -772293521905526564648490010743848462920323 + O(19^33),
+b := [ 1 + O(19^35), 646397356369272501313137457683572018663912 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 329650434498510639659718166251081475376931 + O(19^33),
+b := [ 1 + O(19^35), -520117376406110203617543053212409351198999 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 329650434498510639659718166251081475376931 + O(19^33),
+b := [ 1 + O(19^35), 520117376406110203617543053212409351198999 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -243605791068364359595028646726493694447897 + O(19^33),
+b := [ 1 + O(19^35), -773426868401329157673680033977760443910022 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -243605791068364359595028646726493694447897 + O(19^33),
+b := [ 1 + O(19^35), 773426868401329157673680033977760443910022 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 387409750013956503499308762612911059791366 + O(19^33),
+b := [ 1 + O(19^35), 231932046217499414299513644388699993638060 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 387409750013956503499308762612911059791366 + O(19^33),
+b := [ 1 + O(19^35), -231932046217499414299513644388699993638060 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -484179442363294876060757652336673739714905 + O(19^33),
+b := [ 1 + O(19^35), -349158361326516208815797061511109427771037 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -484179442363294876060757652336673739714905 + O(19^33),
+b := [ 1 + O(19^35), 349158361326516208815797061511109427771037 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -212687601917317438040167889491547554951663236 + O(19^35),
+b := [ 1 + O(19^35), O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -14760149198474153102515765779225542569335 + O(19^33),
+b := [ 1 + O(19^35), 639141873256295874726430586602843458378421 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -14760149198474153102515765779225542569335 + O(19^33),
+b := [ 1 + O(19^35), -639141873256295874726430586602843458378421 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 774965564356711263983403789948494699906969 + O(19^33),
+b := [ 1 + O(19^35), 379503833117929694642732066842274367676722 + O(19^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 774965564356711263983403789948494699906969 + O(19^33),
+b := [ 1 + O(19^35), -379503833117929694642732066842274367676722 + O(19^33) ],
+inf := false>
+] (30 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), 1 + O(19^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), -1 + O(19^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), 1 + O(19^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), -1 + O(19^35) ],
+inf := true>
+] (4 pts)
+have to exclude 26 residue discs.
+> quit;
+
+Total time: 549.460 seconds, Total memory usage: 226.28MB

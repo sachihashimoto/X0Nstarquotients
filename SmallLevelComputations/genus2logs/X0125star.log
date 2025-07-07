@@ -1,0 +1,8 @@
+125
+g = 2
+r = 2
+Runtime error: Chabauty condition not satisfied!
+debug> q
+> quit;
+
+Total time: 0.830 seconds, Total memory usage: 32.09MB

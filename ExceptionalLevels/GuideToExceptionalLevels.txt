@@ -1,0 +1,28 @@
+This folder contains the following files that compute rational points on exceptional levels.
+
+COMPUTING EXCEPTIONAL LEVELS:
+
+This is done in "exceptional_levels.m" with log file "minimal.log"
+
+MODELS:
+
+The models for N = 200, 216, 224, 225, 396 are computed using the "X0NstarCCsolver.m" code. The log files are in this folder with the names "X0Nstar.log"
+
+The models for N = 40, 48, 72, 80, 88, 96, 100, 108, 112, 120, 135, 144, 147, 162, 196, 240
+are in "X0Nstar-models_chatelet.log". These log files were computed with  "makemodelsX0Nstar.m". Note that the Magma intrinsic "X0NQuotient" has a bug in it.
+
+The model for N = 176 is found in Yuji Hasegawa. "Hyperelliptic modular curves $X*_0(N)$." Acta Arithmetica 81.4 (1997): 369-385. <http://eudml.org/doc/207072>. This agrees with the Magma internal for X0NQuotient and therefore with the models in https://arxiv.org/abs/2203.05541 They compute rational points on these models in this paper.
+
+The models for 180, 184 are found in Hasegawa, Yuji. “Table of quotient curves of modular curves $X_0 \left( N \right)$ with genus $2$.” (1995). This agrees with the Magma internal for X0NQuotient and therefore with the models in https://arxiv.org/abs/2203.05541 They compute rational points on these models in this paper.
+
+RATIONAL POINTS:
+
+The files above for N = 200, 216, 224, 225, 396 also compute rational points.
+
+The rational points computations for N = 40, 48, 72, 80, 88, 96, 100, 108, 112, 120, 135, 144, 147, 162, 196, 240 are in "rationalpoints.m".
+
+The hyperelliptic curves N = 176, 180, 184 and their rational points are done in rationalpointshyperelliptic.m with log file "X0Nstarhyperelliptic.log"
+
+The Heegner points computations are done in "HeegnerPointsExceptionalLevels.log" using "HeegnerExceptional.m" (calling "heegner.m").
+
+The extra points for 147 are partially investigated in the log file "X0147star.log". A plain text file with the minimal polynomials for the exceptional j-invariants is found in "exceptionaljinv.txt". They are the lifts of points on X0(3)* are exhibited by the file "pointsonX03.m"

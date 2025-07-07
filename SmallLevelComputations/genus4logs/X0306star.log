@@ -1,0 +1,118 @@
+306
+Curve over Rational Field defined by
+z[1]^2*z[3] - z[1]*z[2]^2 + 2*z[1]*z[2]*z[4] - 19*z[1]*z[4]^2 - z[2]^2*z[3] + 
+    6*z[2]^2*z[4] - 3*z[2]*z[3]^2 + 20*z[2]*z[3]*z[4] - 12*z[2]*z[4]^2 - 
+    4*z[3]^3 + 9*z[3]^2*z[4] - 25*z[3]*z[4]^2 + 24*z[4]^3,
+z[1]^2*z[4] + 3*z[1]*z[2]*z[4] - z[1]*z[4]^2 - z[2]^3 - 3*z[2]^2*z[3] + 
+    2*z[2]^2*z[4] - z[2]*z[3]^2 + 3*z[2]*z[3]*z[4] - 4*z[2]*z[4]^2 + z[3]^3 + 
+    z[3]*z[4]^2,
+z[1]*z[2]*z[3] + 3*z[1]*z[2]*z[4] - z[2]^3 - 3*z[2]^2*z[3] + 2*z[2]^2*z[4] - 
+    z[2]*z[3]^2 + 3*z[2]*z[3]*z[4] - 4*z[2]*z[4]^2,
+z[1]*z[3]^2 - 9*z[1]*z[4]^2 - z[2]^2*z[3] + 3*z[2]^2*z[4] - 3*z[2]*z[3]^2 + 
+    11*z[2]*z[3]*z[4] - 6*z[2]*z[4]^2 - z[3]^3 + 6*z[3]^2*z[4] - 13*z[3]*z[4]^2 
+    + 12*z[4]^3,
+z[1]*z[3]*z[4] + 3*z[1]*z[4]^2 - z[2]^2*z[4] - 3*z[2]*z[3]*z[4] + 2*z[2]*z[4]^2 
+    - z[3]^2*z[4] + 3*z[3]*z[4]^2 - 4*z[4]^3
+g = 4
+r = 2
+6 small points: [ (-1 : -1 : 1 : 0), (1 : 0 : 0 : 0), (2 : 2 : 1 : 1), (1 : 2 : 
+-1 : 1), (1 : 1 : 0 : 1), (2 : 2 : -2 : 1) ]
+checking: differences of 5 points generate rank 2 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 7: ell = 5
+found 6 plane models:
+{
+y^5 + (-x + 7)*y^4 + (-3*x^2 + 6*x + 3)*y^3 + (-x^3 + 4*x^2 - 20*x + 23)*y^2 + 
+(3*x^3 - 13*x^2 + 17*x - 10)*y + x^4 - 4*x^3 + 9*x^2 - 10*x + 4,
+y^5 + (2*x - 3)*y^4 + (-x^2 - 8*x + 6)*y^3 + (-8*x^2 + 19*x - 4)*y^2 + (x^3 + 
+15*x^2 - 22*x)*y + x^4 + 10*x^3 - 33*x^2 + 24*x,
+y^5 + (-3*x + 1)*y^4 + (9/2*x^2 - 5/2*x + 1/2)*y^3 + (-2*x^3 + 5/2*x^2 - 21/2*x 
++ 13/2)*y^2 + (-5/2*x^3 + 31/2*x^2 - 29/2*x + 4)*y + 2*x^4 - 8*x^3 + 15/2*x^2 - 
+2*x,
+y^4 + (3*x - 1)*y^3 + (3*x^4 - 4*x^3 + x^2 - 3*x)*y^2 + (-15*x^4 - x^2)*y - 
+3*x^7 + 6*x^6 + 6*x^5 + 6*x^4 + x^3,
+y^5 + (4*x + 7)*y^4 + (3*x^2 + 14*x + 17)*y^3 + (2*x^3 - 6*x^2 + 7*x + 19)*y^2 +
+(-x^3 - 22*x^2 - 11*x + 10)*y - 2*x^4 + 9*x^3 + 2*x^2 - 7*x + 2,
+y^5 + (15/4*x + 25/4)*y^4 + (3/2*x^2 + 19/2*x + 11)*y^3 + (1/4*x^3 - 11/4*x^2 + 
+3/4*x + 23/4)*y^2 + (-x^3 - 31/4*x^2 - 31/4*x - 1/2)*y - 1/4*x^4 + 7/4*x^3 + 
+9/4*x^2 + 1/4*x
+}
+
+trying model #
+y^5 + (-x + 7)*y^4 + (-3*x^2 + 6*x + 3)*y^3 + (-x^3 + 4*x^2 - 20*x + 23)*y^2 + 
+(3*x^3 - 13*x^2 + 17*x - 10)*y + x^4 - 4*x^3 + 9*x^2 - 10*x + 4p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 29.680
+p = 5 fails: Runtime error: something is wrong, number of approximate roots is 
+different from 1.
+Time: 46.470
+p = 7 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 11 fails: Runtime error: bad prime.
+Time: 95.370
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+p = 17 fails: Runtime error: bad prime.
+Time: 158.790
+Time: 933.890
+found 6 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^32),
+b := [ 1 + O(19^35), -1 + O(19^32), 1 + O(19^32), -1 + O(19^32), 
+30253981476686353684155976911106152333724 + O(19^32) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(19^35),
+b := [ 1 + O(19^35), O(19^32), O(19^35), O(19^35), 
+-155634044211443774939719384224957824142797094 + O(19^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^32),
+b := [ 1 + O(19^35), -1 + O(19^32), 1 + O(19^32), -1 + O(19^32), -25 + O(19^33) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^32),
+b := [ 1 + O(19^35), -2 + O(19^32), 4 + O(19^32), -8 + O(19^32), -18 + O(19^32) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^32),
+b := [ 1 + O(19^35), 1 + O(19^32), 1 + O(19^32), 1 + O(19^32), -24 + O(19^32) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^32),
+b := [ 1 + O(19^35), O(19^64), O(19^128), O(19^192), -24 + O(19^32) ],
+inf := false>
+] (6 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^35),
+b := [ 1 + O(19^35), 1 + O(19^35), 1 + O(19^35), 1 + O(19^35), -24 + O(19^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^35),
+b := [ 1 + O(19^35), -1 + O(19^35), 1 + O(19^35), -1 + O(19^35), -25 + O(19^35) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 2 + O(19^35),
+b := [ 1 + O(19^35), -2 + O(19^35), 4 + O(19^35), -8 + O(19^35), -18 + O(19^35) 
+],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(19^35),
+b := [ 1 + O(19^35), 0, 0, 0, -24 + O(19^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), -1 + O(19^35), 1 + O(19^35), -1 + O(19^35), 
+-155634044211443774939719384224957824142797107 + O(19^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(19^35), 0, 0, 0, -155634044211443774939719384224957824142797094 + 
+O(19^35) ],
+inf := true>
+] (6 pts)
+found all Q-points!

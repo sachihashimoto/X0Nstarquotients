@@ -1,0 +1,44 @@
+476
+Curve over Rational Field defined by
+x^4 + x^3*y - x^3*z + 1/2*x^2*y*z + 1/2*x*y^3 - 1/2*x*z^3 - 1/2*y^2*z^2
+g = 3
+r = 1
+2 small points: [ (0 : 1 : 0), (0 : 0 : 1) ]
+checking: differences of 1 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 3: ell = 2
+found 2 plane models:
+[
+y^3 - y^2 + (2*x^4 + x^3)*y + 2*x^6 - 2*x^5 - x^3,
+y^3 - y^2 + (2*x^4 + x^3)*y + 2*x^6 - 2*x^5 - x^3
+]
+
+trying model #1:
+y^3 - y^2 + (2*x^4 + x^3)*y + 2*x^6 - 2*x^5 - x^3
+p = 2 fails: Runtime error: bad prime.
+Time: 1.600
+Time: 211.930
+found 2 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^28),
+b := [ 1 + O(3^35), 1 + O(3^35), O(3^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(3^35),
+b := [ 1 + O(3^35), O(3^35), O(3^27) ],
+inf := false>
+] (2 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 1 + O(3^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(3^35), 0, 0 ],
+inf := false>
+] (2 pts)
+found all Q-points!
+> quit;
+
+Total time: 284.810 seconds, Total memory usage: 541.25MB

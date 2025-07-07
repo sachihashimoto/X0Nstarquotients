@@ -1,0 +1,51 @@
+420
+2*x^3*y - 2*x^3*z + 2*x^2*y^2 - 3*x^2*y*z + 2*x^2*z^2 - x*y^3 + 2*x*y^2*z - 2*x*y*z^2 + x*z^3 + y^2*z^2
+348
+-2*x^3*y + 2*x^3*z + x^2*y*z - x*y^3 + x*z^3 + y^2*z^2
+312
+-x^3*y + 4*x^2*y^2 + 2*x^2*y*z + x^2*z^2 - x*y^3 + 2*x*y^2*z - 3*x*y*z^2 - x*z^3 + y^2*z^2 - y*z^3 + z^4
+315
+Hyperelliptic Curve defined by y^2 = x^8 + 6*x^7 + 11*x^6 + 24*x^5 + 21*x^4 + 24*x^3 + 11*x^2 + 6*x + 1 over Rational Field
+476
+-2*x^4 - 2*x^3*y + 2*x^3*z - x^2*y*z - x*y^3 + x*z^3 + y^2*z^2
+234
+3*x^4 + 3*x^3*y + 3*x^3*z - 3*x^2*y^2 + 7*x^2*y*z - 3*x^2*z^2 - 5*x*y^3 + 4*x*y^2*z + 4*x*y*z^2 - 5*x*z^3 - 5*y^3*z + 2*y^2*z^2 - 5*y*z^3
+270
+x^4 - x^3*y + x^3*z + x^2*y^2 + 2*x^2*y*z + 2*x*y^3 + 2*x*y^2*z + 2*x*y*z^2 + y^4 - y*z^3
+294
+3*x^4 - 3*x^3*y + 3*x^3*z - x^2*y^2 - 3*x^2*y*z - x^2*z^2 + x*y^3 - x*z^3 + y^3*z + y*z^3
+152
+-x^4 + x^3*y - x^3*z - x^2*y^2 - 3*x^2*y*z - x^2*z^2 + 2*x*y^2*z - 2*x*y*z^2 - y^3*z - 2*y^2*z^2 - y*z^3
+144
+-x^4 + 2*x^3*y + 2*x^3*z - x^2*y^2 - 6*x^2*y*z - x^2*z^2 + 4*x*y^2*z + 4*x*y*z^2 - y^3*z - 5*y^2*z^2 - y*z^3
+240
+x^4 - 2*x^3*y + 2*x^3*z + 2*x^2*y^2 - 4*x^2*y*z + 2*x^2*z^2 - x*y^3 + 3*x*y^2*z - 3*x*y*z^2 + x*z^3 - y^2*z^2
+162
+-x^3*y + x^3*z - 5*x^2*y^2 + 5*x^2*y*z - 2*x^2*z^2 - 2*x*y^3 + x*y^2*z + 2*x*y*z^2 - x*z^3 + y^2*z^2
+196
+2*x^4 - 2*x^3*z - 3*x^2*y^2 - 3*x^2*y*z + x*y^2*z + x*y*z^2 + x*z^3 + y^4 + 2*y^3*z + y^2*z^2
+245
+x^4 - x^3*y + x^3*z - x^2*y^2 - x^2*z^2 + 2*x*y^2*z - 2*x*y*z^2 + y^3*z - y^2*z^2 + y*z^3
+136
+Hyperelliptic Curve defined by y^2 = x^8 - 6*x^6 + 4*x^5 + x^4 - 4*x^3 + 20*x^2 - 16*x over Rational Field
+248
+-x^4 - x^3*y + x^3*z - x^2*y^2 - x^2*y*z - x^2*z^2 - y^3*z - y*z^3
+252
+Hyperelliptic Curve defined by y^2 = x^8 - 6*x^7 + 17*x^6 - 38*x^5 + 64*x^4 - 74*x^3 + 73*x^2 - 42*x + 21 over Rational Field
+189
+2*x^4 + x^3*y + x^3*z + x^2*y^2 + 4*x^2*y*z + x^2*z^2 + x*y^2*z + x*y*z^2 + y^3*z + 3*y^2*z^2 + y*z^3
+128
+x^3*z - x^2*y^2 - x^2*y*z - x^2*z^2 + 3*x*y^2*z + x*z^3 - y^3*z - y*z^3
+164
+2*x^3*y - 2*x^3*z - x^2*y*z - x*y^3 + 2*x*y^2*z - 2*x*y*z^2 + x*z^3 + y^2*z^2
+175
+-2*x^4 + 3*x^3*y - 2*x^3*z + x^2*y^2 + 2*x^2*y*z + 3*x^2*z^2 - x*y^3 + 2*x*y^2*z + x*y*z^2 + x*z^3 + y*z^3
+207
+Hyperelliptic Curve defined by y^2 = x^8 - 6*x^7 + 11*x^6 - 12*x^5 + 9*x^4 - 12*x^3 + 11*x^2 - 6*x + 1 over Rational Field
+171
+Hyperelliptic Curve defined by y^2 = x^8 + 2*x^6 - 8*x^5 + 7*x^4 - 8*x^3 + 10*x^2 - 12*x + 9 over Rational Field
+236
+-2*x^3*y + 2*x^3*z + 2*x^2*y^2 - 3*x^2*y*z + 2*x^2*z^2 - x*y^3 + 2*x*y^2*z - 2*x*y*z^2 + x*z^3 + y^2*z^2
+> quit;
+
+Total time: 18.899 seconds, Total memory usage: 32.09MB

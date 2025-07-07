@@ -1,0 +1,89 @@
+162
+g = 3
+r = 1
+5 small points: [ (0 : 1 : 0), (1 : 1/2 : 1), (0 : 0 : 1), (1 : 0 : 0), (-1/2 : 1/2 : 1) ]
+checking: differences of 4 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 11: ell = 2
+found 5 plane models:
+[
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3,
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3,
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3,
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3,
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3
+]
+
+trying model #1:
+y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2)*y - 1/2*x^5 + x^4 + 1/2*x^3
+p = 2 fails: 
+rational_points(
+N: 162,
+X: Curve over Rational Field defined by x^3*y - x^3*z + 5*x^2*y...
+)
+coleman_data(
+Q: y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2...,
+p: 2,
+N: 35
+)
+genus(
+Q: y^3 + (5/2*x^2 - 1/2*x - 1/2)*y^2 + (1/2*x^4 - 5/2*x^3 - x^2...,
+p: 2
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 3 fails: Runtime error: bad prime.
+Time: 1.930
+Time: 457.080
+found 5 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^27),
+b := [ 1 + O(5^35), O(5^27), O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^27),
+b := [ 1 + O(5^35), 1 + O(5^27), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^35),
+b := [ 1 + O(5^35), O(5^35), O(5^26) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 745058059692382812 + O(5^26),
+b := [ 1 + O(5^35), 745058059692382812 + O(5^26), 745058059692382811 + O(5^26) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^27),
+b := [ 1 + O(5^35), 1 + O(5^27), O(5^27) ],
+inf := false>
+] (5 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 0, 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), 1 + O(5^35), 0 ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1455191522836685180664062 + O(5^35),
+b := [ 1 + O(5^35), 1455191522836685180664062 + O(5^35), 1455191522836685180664061 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 0, 0 ],
+inf := true>
+] (5 pts)
+found all Q-points!
+> quit;
+
+Total time: 461.959 seconds, Total memory usage: 238.28MB

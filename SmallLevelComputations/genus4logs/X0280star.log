@@ -1,0 +1,144 @@
+280
+g = 4
+r = 1
+4 small points: [ (-1/2 : 1 : 1/2 : 1), (2 : 1 : -2 : 1), (0 : 0 : 0 : 1), (0 : 
+1 : 0 : 0) ]
+checking: differences of 3 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 7: ell = 2
+found 4 plane models:
+[
+y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^3 + 21/10*x^2 - 
+11/10*x)*y^2 + (3/10*x^6 + 36/5*x^5 + 9/5*x^4 - 4*x^3 + 11/10*x^2)*y + 8/5*x^8 +
+34/5*x^7 - 4/5*x^6 - 16/5*x^5 + 12/5*x^4 - 2/5*x^3,
+y^4 + (7/10*x^2 + 26/5*x + 3)*y^3 + (3/10*x^4 + 8/5*x^3 + 37/5*x^2 + 28/5*x)*y^2
++ (-3/10*x^6 - 6/5*x^5 - 9/5*x^4 + 2*x^3 + 29/10*x^2)*y - 1/10*x^8 - 4/5*x^7 - 
+11/5*x^6 - 14/5*x^5 - 9/10*x^4 + 2/5*x^3,
+y^4 + (2*x^2 + 1)*y^3 + (2*x^4 + 2*x^3 + 1/4*x^2)*y^2 + (x^6 + 4*x^5 - 5/4*x^4 -
+x^3 + 1/4*x^2)*y + 1/4*x^8 + 5/4*x^7 + 1/2*x^6 - 5/4*x^5 + 1/4*x^4,
+y^4 + (-5*x^2 - 4*x)*y^3 + (2*x^4 - 3*x^3 - 4*x^2 + 5*x + 4)*y^2 + (5*x^6 + 
+26*x^5 + 45*x^4 + 32*x^3 + 8*x^2)*y + x^8 + 7*x^7 + 23*x^6 + 45*x^5 + 56*x^4 + 
+44*x^3 + 20*x^2 + 4*x
+]
+
+trying model #1:
+y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^3 + 21/10*x^2 - 
+11/10*x)*y^2 + (3/10*x^6 + 36/5*x^5 + 9/5*x^4 - 4*x^3 + 11/10*x^2)*y + 8/5*x^8 +
+34/5*x^7 - 4/5*x^6 - 16/5*x^5 + 12/5*x^4 - 2/5*x^3
+p = 2 fails: 
+rational_points(
+    N: 280,
+    X: Curve over Rational Field defined by x[1]*x[2]^2 + x[1]*x[2]...
+)
+coleman_data(
+    Q: y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^...,
+    p: 2,
+    N: 35
+)
+genus(
+    Q: y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^...,
+    p: 2
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+Time: 11.020
+p = 3 fails: 
+rational_points(
+    N: 280,
+    X: Curve over Rational Field defined by x[1]*x[2]^2 + x[1]*x[2]...
+)
+effective_chabauty(
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+local_coord(
+    P: rec<recformat<x, b, inf, xt, bt, index> | ...>,
+    prec: 2000,
+    data: rec<recformat<Q, p, N, g, W0, Winf, r, Delta, s, G0, Ginf, e...
+)
+approx_root(
+    fy: $.1^8 + ((15532072072408987 + O(3^35)) - (256*3 + O(3^36))*t...,
+    y0: 4641348595743581*3^8 + O(3^43),
+    modpprec: 10,
+    expamodp: 2*$.1 + $.1^2 + 2*$.1^4 + $.1^6 + $.1^7 + $.1^8 + $.1^9 + O(...
+)
+Factorization(
+    f: 0
+)
+In file "/scratch/opt/magma/magma-2.28-13/package/Ring/RngLoc/new.m", line 2142,
+column 30:
+>>     return LocalFactorization(
+                                ^
+Runtime error in 'LocalFactorization': Argument 1 is not non-zero
+.
+p = 5 fails: 
+rational_points(
+    N: 280,
+    X: Curve over Rational Field defined by x[1]*x[2]^2 + x[1]*x[2]...
+)
+coleman_data(
+    Q: y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^...,
+    p: 5,
+    N: 35
+)
+genus(
+    Q: y^4 + (33/10*x^2 - 11/5*x + 1/2)*y^3 + (27/10*x^4 - 21/10*x^...,
+    p: 5
+)
+In file "Coleman/auxpolys.m", line 64, column 25:
+>>         Qmodp:=Qmodp+(Fp!D[j])*Fpxy.1^(j-1)*Fpxy.2^(i-1);
+                           ^
+Runtime error in '!': Division by zero
+LHS: FldFin
+RHS: FldRatElt.
+p = 7 fails: Runtime error: bad prime.
+p = 11 fails: Runtime error: bad prime.
+Time: 62.520
+p = 13 fails: Runtime error: In Hensel lift of power series, derivative has 
+leading term divisible by p.
+Time: 90.330
+Time: 24829.170
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(17^9),
+b := [ 1 + O(17^35), -5 + O(17^18), O(17^9), 34043116759 + O(17^9) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^18),
+b := [ 1 + O(17^35), O(17^9), O(17^9), -39673666954 + O(17^9) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^9),
+b := [ 1 + O(17^35), -20 + O(17^9), -300 + O(17^9), -2333744962*17 + O(17^9) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^9),
+b := [ 1 + O(17^35), -40 + O(17^9), -1400 + O(17^9), -39673676554 + O(17^9) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^35),
+b := [ 1 + O(17^35), 0, 0, 3586090546862344846068037815009032671901734 + 
+O(17^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^35),
+b := [ 1 + O(17^35), -20 + O(17^35), -300 + O(17^35), 
+4316905208071258724650623720437413737741876*17 + O(17^36) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := -1 + O(17^35),
+b := [ 1 + O(17^35), -40 + O(17^35), -1400 + O(17^35), 
+3586090546862344846068037815009032671892134 + O(17^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(17^35), -5 + O(17^35), 0, -333115519992900279539969389451076020708\
+2674 + O(17^35) ],
+inf := false>
+] (4 pts)
+found all Q-points!

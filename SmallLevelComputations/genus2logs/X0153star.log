@@ -1,0 +1,68 @@
+153
+g = 2
+r = 1
+4 small points: {@ (1 : -1 : 0), (1 : 1 : 0), (1 : -1 : 1), (1 : 1 : 1) @}
+checking: differences of 3 points generate rank 1 subgroup of J_0(N)^*(Q).
+finite index subgroup certified by: p = 5: ell = 2
+
+rational_points(
+N: 153,
+X: X
+)
+In file "X0NstarCCsolver.m", line 83, column 37:
+>>             Append(~denoms, Lcm([Lcm([Denominator(Coefficient(Qx, j)) : j i
+                                       ^
+Runtime error in 'Lcm': Illegal null set/sequence
+
+found 1 plane models:
+[
+y^2 - x^6 + 4*x^5 - 4*x^4 - 12*x^3 + 36*x^2 - 36*x + 12
+]
+
+trying model #1:
+y^2 - x^6 + 4*x^5 - 4*x^4 - 12*x^3 + 36*x^2 - 36*x + 12
+p = 2 fails: Runtime error: bad prime.
+p = 3 fails: Runtime error: bad prime.
+Time: 0.300
+Time: 6.160
+found 4 residue disks.
+L = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), -1 + O(5^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := O(5^33),
+b := [ 1 + O(5^35), 1 + O(5^33) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^33),
+b := [ 1 + O(5^35), -1 + O(5^33) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^33),
+b := [ 1 + O(5^35), 1 + O(5^33) ],
+inf := false>
+] (4 pts)
+ratpts = [
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 1 + O(5^35),
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := false>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), 1 + O(5^35) ],
+inf := true>,
+rec<recformat<x, b, inf, xt, bt, index> | 
+x := 0,
+b := [ 1 + O(5^35), -1 + O(5^35) ],
+inf := true>
+] (4 pts)
+found all Q-points!
+> quit;
+
+Total time: 8.259 seconds, Total memory usage: 32.09MB
