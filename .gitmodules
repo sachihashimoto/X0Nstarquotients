@@ -1,3 +1,6 @@
 [submodule "Coleman"]
 	path = Coleman
 	url = https://github.com/jtuitman/Coleman.git
+[submodule "QuadraticPoints"]
+	path = QuadraticPoints
+	url = https://github.com/TimoKellerMath/QuadraticPoints.git
