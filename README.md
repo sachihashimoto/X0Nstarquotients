@@ -5,7 +5,7 @@ The code requires Magma and Sage, and has been tested on Magma V2.28-18, Magma V
 
 To clone this project, you need to type:
 
-git clone --recurse-submodules https://github.com/sachihashimoto/testX0N.git
+git clone --recurse-submodules https://github.com/sachihashimoto/X0Nstarquotients.git
 
 The files in the main folder are as follows:
 
