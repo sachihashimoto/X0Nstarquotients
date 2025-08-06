@@ -9,8 +9,6 @@ git clone --recurse-submodules https://github.com/sachihashimoto/X0Nstarquotient
 
 The files in the main folder are as follows:
 
-- gonal_maps.m is modified Magma code to output several gonal maps instead of only one
-
 - heegner.m computes Heegner points and their associated data (such as admissible prime ideals) on the star quotient. The main functions are HeegnerPoints and galoisALcompatibleHps
 
 - J0wplusminus.m computes subvarieties of the Jacobian J0(N) with prescribed Atkin-Lehner eigenvalues and their associated rank

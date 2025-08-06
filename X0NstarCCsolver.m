@@ -1,6 +1,5 @@
 load "QuadraticPoints/models_and_maps.m";
 load "J0wplusminus.m";
-load "gonal_maps.m";
 load "Coleman/auxpolys.m";
 load "Coleman/coho.m";
 load "Coleman/froblift.m";
