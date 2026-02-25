@@ -1,4 +1,4 @@
- // load "QuadraticPoints/models_and_maps.m";
+ load "QuadraticPoints/models_and_maps.m";
  load "J0wplusminus.m";
 
 function XZeroNstar_nonhyperelliptic(N)

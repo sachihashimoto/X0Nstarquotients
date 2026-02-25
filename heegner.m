@@ -283,20 +283,20 @@ end function;
 //(3) //Now, a Heegner point is represented as follows : 
 //((D_K,c),(eta_p)_p,\mathfrak{a}) where \mathfrak{a} represents a class in the class group.
 
-
 function HeegnerPointsOrder(pair, N : verbose := true)
     HPs := [**];
         b, A := AdmissiblePrimeIdeals(N,pair : verbose := verbose);
         if b then
             //indexed by p dividing N
             etas := CartesianProduct(A);
+            forms := ReducedForms(pair[1]*pair[2]^2);
             for eta in etas do
                 //each eta correspons to a choice of ideal of norm p^k for each p
                 //assign the form class
-                I := &*[MultisetToIdeal(eta_p) : eta_p in eta];
-                f := FormClass(I);
-                hp := <pair, eta, f>;
-                Append(~HPs, hp);
+                for f in forms do 
+                    hp := <pair, eta, f>;
+                    Append(~HPs, hp);
+                end for;
             end for;
         end if;
     return HPs;
@@ -311,13 +311,14 @@ function HeegnerPoints(N: verbose:= false)
         if b then
             //indexed by p dividing N
             etas := CartesianProduct(A);
+            forms := ReducedForms(pair[1]*pair[2]^2);
             for eta in etas do
                 //each eta correspons to a choice of ideal of norm p^k for each p
-                //assign the form class
-                I := &*[MultisetToIdeal(eta_p) : eta_p in eta];
-                f := FormClass(I);
-                hp := <pair, eta, f>;
-                Append(~HPs, hp);
+                //assign a form class
+                for f in forms do 
+                    hp := <pair, eta, f>;
+                    Append(~HPs, hp);
+                end for;
             end for;
         end if;
     end for;
