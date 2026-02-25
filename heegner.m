@@ -456,7 +456,6 @@ function allGaloisOrbits(hps)
 end function;
 
 
-
 function equivalenceClasses(hps, N)
     //return equivalence classes of heegner points under Atkin--Lehner
     done := [* *];
@@ -467,6 +466,8 @@ function equivalenceClasses(hps, N)
         if b then 
             continue;
         end if;
+        Append(~equiv_hp, hp);
+        Append(~done, simpleForm(hp));
         for Q in HallDivisors(N) do
             AL := actAtkinLehner(hp, Q, N);
             b := checkdone(simpleForm(AL), done);
@@ -481,7 +482,6 @@ function equivalenceClasses(hps, N)
     
     return equivalence_classes;
 end function;
-
 //need to check that the Galois orbits are contained in a single AL orbit
 
 function isContainedIn(L1, L2);
